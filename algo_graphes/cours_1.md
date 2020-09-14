@@ -13,7 +13,7 @@ Un **graphe** G est un couple (V, E) où :
 Un arête qui relie un sommet à lui-même.
 
 #### Multi-arête
-Un ensemble d'arêtes qui relient les deux mêmes sommets
+Un ensemble d'arêtes qui relient les deux mêmes sommets.
 
 ![exemple boucle et multi-arête](./img_cours_1_2.png)  
 
@@ -33,8 +33,8 @@ Il est noté : Γ(v)
 ![exemple voisinage](./img_cours_1_3.png)
 
 #### Incidence
-Une arête e=uv est dite **incidente** aux sommets u et v.  
-De même, u et v sont dits **incidents** à e.
+Une arête e=uv est **incidente** aux sommets u et v.  
+De même, u et v sont **incidents** à e.
 
 #### Ordre
 L'**ordre** est le nombre de sommet du graphe. Noté n(G).
@@ -49,13 +49,11 @@ E(G) : Ensemble des arêtes
 ẟ(G) : Degré minimum
 
 ## Graphe Orienté
-On ne parle plus d'arêtes mais d'**arcs**.  
-On dessine des flèches au lieu de traits.  
+On ne parle plus d'arêtes mais d'**arcs**. On dessine des flèches au lieu de traits.  
 
-Arc uv reliant le sommet u au sommet v :
-- schéma : u⟶v
-- arc **sortant** de u
-- arc **entrant** de v
+Arc uv reliant le sommet u au sommet v (u⟶v):
+- uv est un arc **sortant** de u
+- uv est un arc **entrant** de v
 - u est un **prédécesseur** de v
 - v est un **successeur** de u
 
@@ -91,7 +89,7 @@ Ils sont isomorphes si ils ont le même nombre de sommets et sont connectés de 
 
 #### Chaîne
 Une **chaîne** est une suite alternée de sommets et d'arêtes d'un graphe.  
-v1, e1, v2, e2, v3, ..., vk, ek, vk+1 tel que pour tout 1 ≤ i ≤ k, ei = vi vi+1  
+`v1, e1, v2, e2, v3, ..., vk, ek, vk+1 tel que pour tout 1 ≤ i ≤ k, ei = vi vi+1`  
 La **longueur** d'une chaîne est son nombre d'arêtes.  
 Une chaîne est **simple** si elle ne contient pas deux fois la même arête.  
 Une chaîne est **élémentaire** si elle ne contient pas deux fois le même sommet.  
@@ -110,7 +108,7 @@ Un cycle est **élémentaire** si il ne contient pas deux fois le même sommet, 
 
 #### Chemin
 Un **chemin** est une suite alternée de sommets et d’arcs d'un graphe.  
-v1, e1, v2, e2, v3, ... vk, ek, vk+1 tel que pour tout 1 ≤ i ≤ k, ei = vi vi+1.  
+`v1, e1, v2, e2, v3, ... vk, ek, vk+1 tel que pour tout 1 ≤ i ≤ k, ei = vi vi+1`  
 La **longueur** d’un chemin est son nombre d’arcs.  
 Un chemin est **simple** si il ne contient pas deux fois le même arc.  
 Un chemin est **élémentaire** si il ne contient pas deux fois le même sommet.  
@@ -143,7 +141,7 @@ Un sous-graphe en enlevant des arêtes.
 ```a
 a---b                   a---b
 |\ /|                   |  /|
-| ╳ |  a un sous-graphe | / |  (l'arête ad est enlevé)
+| ╳ |  a un sous-graphe | / |  (l'arête ad est enlevée)
 |/ \|                   |/  |
 c---d                   c---d
 ```
@@ -164,7 +162,7 @@ Une **composante fortement connexe** est un sous-graphe induit qui est fortement
 
 #### Graphe K-Connexe
 Un graphe est **k-connexe** si toute suppression d'au plus k-1 sommet ne déconnecte pas le graphe.  
-Ex: Un graphe est 2-connexe si on supprime 1 sommet et qu'il est toujours connexe.  
+Ex : Un graphe est 2-connexe si on supprime 1 sommet et qu'il est toujours connexe.  
 
 #### Connectivité
 La **connectivité** d'un graphe est le plus grand entier k tel que le graphe est k-connexe.
@@ -183,7 +181,7 @@ Matrice n*n (graphe à n sommets) qui contient le nombre d'arêtes/arcs entre le
 ![matrice adjacence graphe orienté](./img_cours_1_5.png)
 
 #### Matrice d'incidence
-Matrice n*m (graphe à n sommets et m arêtes/arcs) qui contient le nombre d'incidence entre le sommet et l'arête/arcs.  
+Matrice n*m (graphe à n sommets et m arêtes/arcs) qui contient le nombre d'incidence entre le sommet et l'arête/arc.  
 
 Graphe non orienté :
 - 2 si boucle

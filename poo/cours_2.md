@@ -1,10 +1,13 @@
+[Index](./index.md)  
+[Cours précédant](./cours_1.md)
+
 ## Classes d'objets
 Une classe est une définition de type d'objet  
 Une classe a plusieurs instances d'objets différents
 
 ## Classes en Java
 Un fichier .java -> Une classe (et inversement)  
-Les fichiers doivent etre nommé pareil que le nom de la classe
+Le nom de la classe et du fichier doit être le même.
 ```java
 //fichier Rectangle.java
 class Rectangle {
@@ -20,8 +23,8 @@ class Rectangle {
 	*/
 	Rectangle(double largeur, double hauteur){
 		/*
-		Du point de vu d'un objet, le mot clef this sert à pointer vers soi-même donc this.largeur est ma largeur. largeur sans this. pointe vers le paramètre de la fonction.
-		this permet de faire la différence entre les attributs de l'objet et les paramètre de la méthode/constructeur si ils ont les même nom
+		Du point de vu d'un objet, le mot clef this sert à pointer vers soi-même donc this.largeur est ma largeur. largeur sans this pointe vers le paramètre de la fonction.
+		this permet de faire la différence entre les attributs de l'objet et les paramètres de la méthode/constructeur si ils ont les mêmes noms.
 		*/
 		this.largeur = largeur;
 		this.hauteur = hauteur;
@@ -32,7 +35,7 @@ class Rectangle {
 	Cela permet de faire des choses différentes de l'autre constructeur
 	*/
 	Rectangle(double size){
-		//this(<params>) référence un constructeur que l'on est en train de surcharger
+		//this(<params>) référence un autre constructeur
 		this(size, size);
 	}
 
@@ -68,7 +71,7 @@ class App{
 		System.out.println("Bonjour");//= printf("Bonjour");
 
 		Rectangle r1 = new Rectangle(2,3);
-		Rectangle r2 = r1;//r2 = valeur de r1 donc la référence de l'objet r1
+		Rectangle r2 = r1;//r2 = valeur de r1, donc la référence de l'objet r1
 
 		r1.increment();// r2 est aussi affecté car il pointe sur le même objet que r1
 
@@ -83,17 +86,16 @@ class App{
 
 ## Surcharge en Java
 - Même nom
-- Signature différente. La signature c'est les paramètres de la méthode (le type de retour n'en fait pas partis)
+- Signature différente. La signature c'est les paramètres de la méthode (le type de retour n'en fait pas partie)
 - le type de retour n'est pas pris en compte.
 
 ```java
 int fonction(){};//définition initiale
-
 int fonction(double a){};//surcharge car signature différente
 double fonction(double a){};//impossible car la méthode a déjà été défini avant. Le type de retour n'est pas pris en compte
 ```
 
-## Types primitif
+## Types primitifs
 `boolean` -
 
 `char` 8 bits
@@ -105,13 +107,16 @@ nombres entiers
 `int` 32 bits  
 `long` 64 bits  
 
-nombre décimaux  
+nombres décimaux  
 `float` 32 bits  
 `double` 64 bits
 
 `void` -
 
 ## types construits
-toutes les classes.  
-il existe déjà des classes de "base" dans le Java, comme String par exemple.  
+Toutes les classes.  
+Il existe déjà des classes de "base" dans le Java, comme String par exemple.  
 Elles sont données dans le JDK
+
+[Index](./index.md)  
+[Cours précédant](./cours_1.md)

@@ -1,7 +1,7 @@
 [Index](./index.md)  
 [Cours suivant](./cours_2.md)
 
-### Programmation Orientée Objet :
+### Programmation Orientée Objet
 Langage paradigme procédural -> langage impératif  
 paradigme impératif :
 - exprimer des traitements
@@ -31,7 +31,7 @@ struct sfig f1 = {3.0, 4.0};
 printf("surface = %f", surface(f1.largeur, f1.hauteur));
 ```
 
-### Les Objets :
+### Les Objets
 Au lieu de traiter d'un coté les données et de l'autre les traitements, on regroupe dans une même entité données et traitements :  
 C'est un **objet**.
 
@@ -44,34 +44,34 @@ Un objet peut demander à un autre objet de réaliser un de ses traitements.
 Un objet est autonome.  
 Un objet interagit avec d'autres objets.  
 
-#### Création d'Objet :
+#### Création d'Objet
 ```java
 Rectangle rect = new Rectangle(3.0, 4.0);
 ```
 On obtient ainsi une variable `rect` qui contient une référence vers l'objet de type `Rectangle`
 
-### Mémoire en Java :
-La mémoire est géré par la JVM (Java Virtual Machine).  
+### Mémoire en Java
+La mémoire est gérée par la JVM (Java Virtual Machine).  
 Il n'y a pas besoin de s'en occuper soi-même.  
 La JVM alloue et libère automatiquement la mémoire au grès du programme, grâce au **Garbage Collector**
 
-##### Garbage Collector :
+##### Garbage Collector
 Le garbage collector (ramasse miettes) supprime automatiquement les objets de la mémoire.  
-Pour qu'un objet soit supprimé, il faut que plus aucun objet n'est de référence vers celui-ci.  
+Pour qu'un objet soit supprimé, il faut que plus aucun objet n'ai de référence vers celui-ci.  
 Il n'est pas possible de supprimer les objets à la main.
 
-### Langage Java :
+### Langage Java
 C'est un langage compilé et interprété.  
 Le code source (fichiers .java) passe dans un compilateur (javac) qui génère du bytecode (fichiers .class).  
-Les fichiers .class sont indépendants du système et architecture matérielle.  
+Les fichiers .class sont indépendants du système et de l'architecture matérielle.  
 Ensuite, la JVM execute les .class. Ils sont interprété dynamiquement par la JVM.
 
-JRE (Java Runtime Environment) : Execute le programme dans la JVM (Java Virtual Machine)
+JRE (Java Runtime Environment) : Execute le programme dans la JVM  
 JDK (Java Development Kit) : JRE + Compilateur
 
-La JVM contient d'autres mini programme en plus du notre. Le garbage collector en fait parti.
+La JVM contient d'autres minis programmes en plus du notre. Le garbage collector en fait parti.
 
-Le langage réutilise beaucoup de syntaxe de c
+Java réutilise beaucoup de syntaxe de c
 
 [Index](./index.md)  
 [Cours suivant](./cours_2.md)
