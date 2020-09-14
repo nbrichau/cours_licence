@@ -1,3 +1,5 @@
+[Index](./index.md)
+
 ## Vocabulaire de la logique
 
 #### Proposition :
@@ -7,7 +9,7 @@ de vérité.
 
 #### Logique minimale :
 Formules atomiques et implication comme seul connecteur:  
-`(P→Q→R)→(Q→P→R)`  
+`(P→Q→R)→(Q→P→R)`
 
 #### Logiques propositionnelles :
 On ajoute à la logique minimale la contradiction ⊥, la négation ∼ (ou ¬), et les connecteurs ∨, ∧, ⇐⇒  
@@ -21,18 +23,17 @@ Notions de prédicat, de relation; quantificateurs existentiel et universel
 ### Séquents :
 Un séquent est une structure composée:
 * d’un contexte formé d’un ensemble Γ de propositions appelées prémisses ou hypothèses,
-* d’une proposition A appelée conclusion du séquent  
+* d’une proposition A appelée conclusion du séquent
 
 Notations usuelles :  
 `H₁, H2₂, ..., Hₙ ⊢ A`  
 `Γ⊢A`  
-`⊢A`  
+`⊢A`
 
 #### Validité d'un séquent :
 Intuitivement, un séquent est valide si, chaque fois que toutes ses hypothèses sont simultanément vraies, alors sa conclusion est vraie.  
 Un séquent peut être valide par contradiction de ses hypothèses.  
-*si hypothèses contradictoires alors séquent valide, mais veux pas dire que les hypothèses sont valides*  
-
+*si hypothèses contradictoires alors séquent valide, mais veux pas dire que les hypothèses sont valides*
 
 #### Notions de preuve
 Une preuve est un discours (plus ou moins symbolique, plus ou moins détaillé) dont l’objectif est de convaincre qu’une certaine affirmation est vraie.  
@@ -43,3 +44,5 @@ Définir la valeur de vérité de toute proposition, puis vérifier que chaque f
 Exemple : tables de vérité en logique propositionnelle
 * ###### Approche Syntaxique :
 Définir ce qu’est une preuve de Γ⊢A. On définit un langage pour les preuves, avec ses règles de correction, comme les langages de programmation. Une preuve devient un objet informatique, comme un programme.
+
+[Index](./index.md)

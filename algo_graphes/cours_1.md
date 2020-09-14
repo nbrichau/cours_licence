@@ -1,3 +1,5 @@
+[Index](./index.md)
+
 # Définitions
 
 ## Graphe Non Orienté
@@ -222,3 +224,5 @@ la somme des degrés sortants et au nombre d'arcs.
 Dans tout graphe simple ayant au moins deux sommets,
 il existe au moins deux sommets de même degré.
 ```
+
+[Index](./index.md)

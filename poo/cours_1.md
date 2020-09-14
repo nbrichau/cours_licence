@@ -1,3 +1,6 @@
+[Index](./index.md)  
+[Cours suivant](./cours_2.md)
+
 ### Programmation Orientée Objet :
 Langage paradigme procédural -> langage impératif  
 paradigme impératif :
@@ -67,3 +70,8 @@ JRE (Java Runtime Environment) : Execute le programme dans la JVM (Java Virtual 
 JDK (Java Development Kit) : JRE + Compilateur
 
 La JVM contient d'autres mini programme en plus du notre. Le garbage collector en fait parti.
+
+Le langage réutilise beaucoup de syntaxe de c
+
+[Index](./index.md)  
+[Cours suivant](./cours_2.md)
