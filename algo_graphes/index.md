@@ -1,4 +1,4 @@
-# Index - Algorithme des graphes
+# Algorithme des graphes
 
 #### [Retour Index](../index.md)
 

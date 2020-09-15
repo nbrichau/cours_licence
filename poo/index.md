@@ -1,4 +1,4 @@
-# Index - Programmation Orientée Objet
+# Programmation Orientée Objet
 
 #### [Retour Index](../index.md)
 

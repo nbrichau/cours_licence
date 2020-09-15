@@ -1,4 +1,4 @@
-# Index - Projet Communication Transdisciplinaire - Sensibilisation à l’écologie et à l’impact du numérique
+# Projet Communication Transdisciplinaire - Sensibilisation à l’écologie et à l’impact du numérique
 
 #### [Retour Index](../index.md)
 ---

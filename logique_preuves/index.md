@@ -1,4 +1,4 @@
-# Index - Logique et Preuves
+# Logique et Preuves
 
 #### [Retour Index](../index.md)
 
