@@ -9,7 +9,10 @@ de vérité.
 
 #### Logique minimale
 Formules atomiques et implication comme seul connecteur:  
-`(P→Q→R)→(Q→P→R)`
+`(P→Q→R)→(Q→P→R)`  
+```latex
+&(P \implies Q \implies R) \implies (Q \implies P \implies R)&
+```
 
 #### Logiques propositionnelles
 On ajoute à la logique minimale la contradiction ⊥, la négation ∼ (ou ¬), et les connecteurs ∨, ∧, ⇐⇒  
@@ -44,5 +47,40 @@ Définir la valeur de vérité de toute proposition, puis vérifier que chaque f
 Exemple : tables de vérité en logique propositionnelle
 * ###### Approche Syntaxique :
 Définir ce qu’est une preuve de Γ⊢A. On définit un langage pour les preuves, avec ses règles de correction, comme les langages de programmation. Une preuve devient un objet informatique, comme un programme.
+
+### Priorité des signes
+
+|-| | |+|
+|-|-|-|-|
+|→|∨|∧|¬|
+
+Si il y a plusieurs fois le même signe à la même hauteur dans l'expression :   
+Il faut les executer de la fin vers le début.  
+ex : `a→b→c` : les signes → sont tous à la même hauteur.  
+donc `a→b→c` correspond à `a→(b→c)`
+
+### Arbre
+
+`(P∧Q∧R)→S = (P∧(Q∧R))→S`
+```arbre
+    →
+   / \
+  ∧   S
+ / \
+P   ∧
+   / \
+  Q   R
+```
+
+
+### Table de vérité
+
+|`P`|`Q`|`¬P`|`P∧Q`|`P∨Q`|`P→Q`|
+|:-:|:-:|:--:|:---:|:---:|:---:|
+| V | V | F  |  V  |  V  |  V  |
+| V | F | F  |  F  |  V  |  F  |
+| F | V | V  |  F  |  V  |  V  |
+| F | F | F  |  F  |  F  |  V  |
+
 
 [Index](./index.md)

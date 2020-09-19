@@ -155,10 +155,10 @@ Un graphe est **connexe** si et seulement si il existe une chaîne entre toute p
 Un graphe est **fortement connexe** si et seulement si il existe un chemin entre toute paire de sommets.
 
 #### Composante Connexe
-Une **composante connexe** est un sous-graphe induit qui est connexe.
+Une **composante connexe** est un sous-graphe induit maximal qui est connexe.
 
 #### Composante Fortement Connexe
-Une **composante fortement connexe** est un sous-graphe induit qui est fortement connexe.
+Une **composante fortement connexe** est un sous-graphe induit maximal qui est fortement connexe.
 
 #### Graphe K-Connexe
 Un graphe est **k-connexe** si toute suppression d'au plus k-1 sommet ne déconnecte pas le graphe.  
