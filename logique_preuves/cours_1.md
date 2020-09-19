@@ -11,7 +11,7 @@ de vérité.
 Formules atomiques et implication comme seul connecteur:  
 `(P→Q→R)→(Q→P→R)`  
 ```latex
-&(P \implies Q \implies R) \implies (Q \implies P \implies R)&
+&&(P \implies Q \implies R) \implies (Q \implies P \implies R)&&
 ```
 
 #### Logiques propositionnelles
