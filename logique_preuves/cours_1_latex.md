@@ -9,26 +9,26 @@ de vérité.
 
 #### Logique minimale
 Formules atomiques et implication comme seul connecteur:  
-`&&(P \to Q \to R) \to (Q \to P \to R)&&`
+$$(P \to Q \to R) \to (Q \to P \to R)$$
 
 #### Logiques propositionnelles
-On ajoute à la logique minimale la contradiction `&&\bot&&`, la négation `&&\sim&&` (ou `&&\neg&&`), et les connecteurs `&&\lor&&`, `&&\land&&`, `&&\leftrightarrow&&`  
-`&&P \lor \bot \to P&&`  
-`&&\sim (P \to Q \to R) \to P \land Q \land \sim R&&`
+On ajoute à la logique minimale la contradiction $$\bot$$, la négation $$\sim$$ (ou $$\neg$$), et les connecteurs $$\lor$$, $$\land$$, $$\leftrightarrow$$  
+$$P \lor \bot \to P$$  
+$$\sim (P \to Q \to R) \to P \land Q \land \sim R$$
 
 #### Calcul des prédicats
 Notions de prédicat, de relation; quantificateurs existentiel et universel  
-`&&(\forall x, \exists y, x \neq y) \to \neg (\forall x y, x = y)&&`
+$$(\forall x, \exists y, x \neq y) \to \neg (\forall x y, x = y)$$
 
 ### Séquents
 Un séquent est une structure composée:
-* d’un contexte formé d’un ensemble `&&\Gamma&&` de propositions appelées prémisses ou hypothèses,
+* d’un contexte formé d’un ensemble $$\Gamma$$ de propositions appelées prémisses ou hypothèses,
 * d’une proposition A appelée conclusion du séquent
 
 Notations usuelles :  
-`&&H_1, H_2, ..., H_n \vdash A&&`  
-`&&\Gamma \vdash A&&`  
-`&&\vdash A&&`
+$$H_1, H_2, ..., H_n \vdash A$$  
+$$\Gamma \vdash A$$  
+$$\vdash A$$
 
 #### Validité d'un séquent
 Intuitivement, un séquent est valide si, chaque fois que toutes ses hypothèses sont simultanément vraies, alors sa conclusion est vraie.  
@@ -40,31 +40,31 @@ Une preuve est un discours (plus ou moins symbolique, plus ou moins détaillé) 
 
 #### Convaincre la validité
 * ###### Approche Sémantique :
-Définir la valeur de vérité de toute proposition, puis vérifier que chaque fois que toutes les hypothèses dans `&&\Gamma&&` sont vraies, alors A est vraie.  
+Définir la valeur de vérité de toute proposition, puis vérifier que chaque fois que toutes les hypothèses dans $$\Gamma$$ sont vraies, alors A est vraie.  
 Exemple : tables de vérité en logique propositionnelle
 * ###### Approche Syntaxique :
-Définir ce qu’est une preuve de `&&\Gamma \vdash A&&`. On définit un langage pour les preuves, avec ses règles de correction, comme les langages de programmation. Une preuve devient un objet informatique, comme un programme.
+Définir ce qu’est une preuve de $$\Gamma \vdash A$$. On définit un langage pour les preuves, avec ses règles de correction, comme les langages de programmation. Une preuve devient un objet informatique, comme un programme.
 
 ### Priorité des signes
 
 |    -    |      |       |  +  |
 |:-------:|:----:|:-----:|:---:|
-|`&&\to&&`|`\lor`|`\land`|`neg`|
+|$$\to$$|$$\lor$$|$$\land$$|$$neg$$|
 
 Si il y a plusieurs fois le même signe à la même hauteur dans l'expression :   
 Il faut les executer de la fin vers le début.  
-ex : `&&a \to b \to c&&` : les signes `&&\to&&` sont tous à la même hauteur.  
-donc `&&a \to b \to c` correspond à `&&a \to (b \to c)&&`
+ex : $$a \to b \to c$$ : les signes $$\to$$ sont tous à la même hauteur.  
+donc $$a \to b \to c$$ correspond à $$a \to (b \to c)$$
 
 ### Arbre
 
-`&& (P \land Q \land R) \to S = (P \land (Q \land R)) \to S`
+$$ (P \land Q \land R) \to S = (P \land (Q \land R)) \to S$$
 ```arbre
-       &&\to&&
+       $$\to$$
       /       \
-  &&\land&&    S
+  $$\land$$    S
   /    \
- P  &&\land&&
+ P  $$\land$$
       /   \
      Q     R
 ```
@@ -72,7 +72,7 @@ donc `&&a \to b \to c` correspond à `&&a \to (b \to c)&&`
 
 ### Table de vérité
 
-|`P`|`Q`|`&&\neg P&&`|`&&P \land Q&&`|`&&P \lor Q&&`|`&&P \to Q&&`|
+|P|Q|$$\neg P$$|$$P \land Q$$|$$P \lor Q$$|$$P \to Q$$|
 |:-:|:-:|:--:|:---:|:---:|:---:|
 | V | V | F  |  V  |  V  |  V  |
 | V | F | F  |  F  |  V  |  F  |
@@ -81,30 +81,30 @@ donc `&&a \to b \to c` correspond à `&&a \to (b \to c)&&`
 
 ### Forme Normale Conjonctive
 
-La forme normale conjonctive est une conjonction (`&&\land&&`) de clause.  
-Une clause est une disjonction (`&&\lor&&`) du littéraux (P ou `&&\neg P`).  
-Ex : `&&(P \lor Q) \land ( \neg Q \lor R)&&`
+La forme normale conjonctive est une conjonction ($$\land$$) de clause.  
+Une clause est une disjonction ($$\lor$$) du littéraux (P ou $$\neg P$$).  
+Ex : $$(P \lor Q) \land ( \neg Q \lor R)$$
 
 ### Lois de Morgan
 
-`&&\neg (A \lor B) = (\neg A) \lor (\neg B)&&`  
-`&&\neg (A \land B) = (\neg A) \land (\neg B)&&`  
-`&&\neg (\neg A) = A&&`  
-`&&A \to B = (\neg A) \lor B&&`
+$$\neg (A \lor B) = (\neg A) \lor (\neg B)$$  
+$$\neg (A \land B) = (\neg A) \land (\neg B)$$  
+$$\neg (\neg A) = A$$  
+$$A \to B = (\neg A) \lor B$$
 
 ### Associativité
 
-`&&(A \lor B) \lor C = A \lor (B \lor C) = A \lor B \lor C&&`  
-`&&(A \land B) \land C = A \land (B \land C) = A \land B \land C&&`
+$$(A \lor B) \lor C = A \lor (B \lor C) = A \lor B \lor C$$  
+$$(A \land B) \land C = A \land (B \land C) = A \land B \land C$$
 
 ### Commutativité
 
-`&&A \lor B = B \lor A&&`  
-`&&A \land B = B \land A&&`
+$$A \lor B = B \lor A$$  
+$$A \land B = B \land A$$
 
 ### Distributivité
 
-`&&(A \land B) \lor C = (A \lor C) \land (B \lor C)&&`  
-`&&(A \lor B) \land C = (A \land C) \lor (B \land C)&&`
+$$(A \land B) \lor C = (A \lor C) \land (B \lor C)$$  
+$$(A \lor B) \land C = (A \land C) \lor (B \land C)$$
 
 [Index](./index.md)

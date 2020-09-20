@@ -8,6 +8,8 @@
 
 ### [Liste de symboles logiques](https://fr.wikipedia.org/wiki/Liste_de_symboles_logiques)
 
+https://www.codecogs.com/latex/eqneditor.php
+
 ---
 
 ## [Rappel logique propositionnelle](./rappel_logique_propositionnelle.pdf) (diapo)
