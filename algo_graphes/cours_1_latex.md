@@ -29,30 +29,6 @@
 
 script2  
 
-<script type="text/tikz">
-\begin{tikzpicture}
-
-\tikzstyle{NormalVertexStyle}=[shape=circle, minimum size=8pt, %draw]
-
-\Vertex[label=$s_0$]{S}
-\Vertex[x=-2, y=0, label=$s_1$]{A}
-\Vertex[x=-1.2, y=1.4, label=$s_2$]{B}
-\Vertex[x=1.2, y=1.4, label=$s_3$]{C}
-\Vertex[x=2, y=0, label=$s_4$]{D}
-\Vertex[x=-1.2, y=-1.4, label=$s_6$]{E}
-\Vertex[x=1.2, y=-1.4, label=$s_5$]{F}
-
-\Edge(B)(D)
-\Edge(A)(B)
-\Edge(A)(C)
-\Edge(S)(E)
-\Edge(A)(F)
-\Edge(B)(D)
-\Edge(B)(C)
-\Edge(C)(D)
-\end{tikzpicture}
-</script>
-
 ## Graphe Non Orienté
 Un **graphe** G est un couple (V, E) où :
 * V est un ensemble *non vide* dont les éléments sont appelés **sommets**
