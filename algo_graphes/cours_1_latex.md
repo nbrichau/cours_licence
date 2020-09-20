@@ -8,26 +8,24 @@
 
 <script type="text/tikz">
 \begin{tikzpicture}
-      \tikzstyle{etiquette}=[color=black]
-      \tikzstyle{sommet}=[circle, draw=black!50,  thick]
+	\tikzstyle{etiquette}=[color=black, font=\normalsize]
+	\tikzstyle{sommet}=[circle, draw=black!50,  thick]
 
-      \node[sommet] (1) at (0,1.5) {$1$};
-      \node[sommet] (2) at (3,1.5) {$2$}
-        edge node [above, etiquette] {$e_1$} (1);
-      \node[sommet] (4) at (6,1.5) {$4$}
-        edge node [above, etiquette] {$e_4$} (2);
+	\node[sommet] (1) at (0,1.5) {$1$};
+	\node[sommet] (2) at (3,1.5) {$2$}
+		edge node [above, etiquette] {$e_1$} (1);
+	\node[sommet] (4) at (6,1.5) {$4$}
+		edge node [above, etiquette] {$e_4$} (2);
 
-      \node[sommet] (3) at (1.5,0) {$3$}
-        edge node [left, etiquette]  {$e_2$} (1)
-        edge node [right, etiquette] {$e_3$} (2);
-      \node[sommet] (5) at (4.5,0) {$5$}
-        edge node [left, etiquette]  {$e_5$} (2)
-        edge node [below, etiquette] {$e_6$} (3)
-        edge node [right, etiquette] {$e_7$} (4);
-   \end{tikzpicture}
+	\node[sommet] (3) at (1.5,0) {$3$}
+		edge node [left, etiquette]  {$e_2$} (1)
+		edge node [right, etiquette] {$e_3$} (2);
+	\node[sommet] (5) at (4.5,0) {$5$}
+		edge node [left, etiquette]  {$e_5$} (2)
+		edge node [below, etiquette] {$e_6$} (3)
+		edge node [right, etiquette] {$e_7$} (4);
+\end{tikzpicture}
 </script>
-
-script2  
 
 ## Graphe Non Orienté
 Un **graphe** G est un couple (V, E) où :
