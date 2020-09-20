@@ -12,6 +12,6 @@
 
 ## [Rappel logique propositionnelle](./rappel_logique_propositionnelle.pdf) (diapo)
 
-## [Cours 1](./cours_1.md)
+## [Cours 1](./cours_1.md) ([LaTeX](./cours_1_latex.md))
 Vocabulaire de la logique.  
 [diapo prof](./cours_1.pdf)

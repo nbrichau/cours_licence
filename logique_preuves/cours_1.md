@@ -9,19 +9,16 @@ de vérité.
 
 #### Logique minimale
 Formules atomiques et implication comme seul connecteur:  
-`(P→Q→R)→(Q→P→R)`  
-```latex
-&&(P \implies Q \implies R) \implies (Q \implies P \implies R)&&
-```
+`(P→Q→R)→(Q→P→R)`
 
 #### Logiques propositionnelles
-On ajoute à la logique minimale la contradiction ⊥, la négation ∼ (ou ¬), et les connecteurs ∨, ∧, ⇐⇒  
+On ajoute à la logique minimale la contradiction ⊥, la négation ∼ (ou ¬), et les connecteurs ∨, ∧, ⟷  
 `P ∨ ⊥ → P`  
 `∼(P→Q→R) → P ∧ Q ∧ ∼R`
 
 #### Calcul des prédicats
 Notions de prédicat, de relation; quantificateurs existentiel et universel  
-`(∀ x, ∃ y, x 6= y)→∼(∀ x y, x = y)`
+`(∀ x, ∃ y, x ≠ y)→∼(∀ x y, x = y)`
 
 ### Séquents
 Un séquent est une structure composée:
@@ -29,7 +26,7 @@ Un séquent est une structure composée:
 * d’une proposition A appelée conclusion du séquent
 
 Notations usuelles :  
-`H₁, H2₂, ..., Hₙ ⊢ A`  
+`H₁, H₂, ..., Hₙ ⊢ A`  
 `Γ⊢A`  
 `⊢A`
 
@@ -81,6 +78,34 @@ P   ∧
 | V | F | F  |  F  |  V  |  F  |
 | F | V | V  |  F  |  V  |  V  |
 | F | F | F  |  F  |  F  |  V  |
+
+### Forme Normale Conjonctive
+
+La forme normale conjonctive est une conjonction (∧) de clause.  
+Une clause est une disjonction (∨) du littéraux (P ou ¬P).  
+Ex : `(P∨Q)∧(¬Q∨R)`
+
+### Lois de Morgan
+
+`¬(A∨B) = (¬A)∨(¬B)`  
+`¬(A∧B) = (¬A)∧(¬B)`  
+`¬(¬A) = A`  
+`A→B = (¬A)∨B`
+
+### Associativité
+
+`(A∨B)∨C = A∨(B∨C) = A∨B∨C`  
+`(A∧B)∧C = A∧(B∧C) = A∧B∧C`
+
+### Commutativité
+
+`A∨B = B∨A`  
+`A∧B = B∧A`
+
+### Distributivité
+
+`(A∧B)∨C = (A∨C)∧(B∨C)`  
+`(A∨B)∧C = (A∧C)∨(B∧C)`
 
 
 [Index](./index.md)
