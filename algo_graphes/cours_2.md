@@ -1,6 +1,6 @@
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML"></script>
 
-[Index](./index.md)
+[Index](./index.md)  
 [Cours précédant](./cours_1.md)
 
 ## Notations asymptotiques
@@ -72,5 +72,5 @@ L'objectif est de calculer $$d(v)$$ qui contient en sortie $$d(s,v)$$ : La dista
 
 
 
-[Cours précédant](./cours_1.md)
+[Cours précédant](./cours_1.md)  
 [Index](./index.md)

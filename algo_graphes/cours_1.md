@@ -2,7 +2,7 @@
 <link rel="stylesheet" type="text/css" href="https://tikzjax.com/v1/fonts.css">  
 <script src="https://tikzjax.com/v1/tikzjax.js"></script>
 
-[Index](./index.md)
+[Index](./index.md)  
 [Cours suivant](./cours_2.md)
 
 # Définitions
@@ -192,7 +192,8 @@ Un circuit est **élémentaire** si il ne contient pas deux fois le même sommet
 
 #### Sous-graphe induit
 Un sous-graphe en enlevant des sommets.  
-Ex : Un sous-graphe où le sommet c est enlevé.  
+Ex : Un sous-graphe où le sommet c est enlevé.
+
 <script type="text/tikz">
 \begin{tikzpicture}
 	\tikzstyle{sommet}=[circle, draw=black!50,  thick]
@@ -218,7 +219,8 @@ Ex : Un sous-graphe où le sommet c est enlevé.
 
 #### Sous-graphe partiel
 Un sous-graphe en enlevant des arêtes.  
-Ex : Un sous-graphe où l'arête a-c est enlevée.  
+Ex : Un sous-graphe où l'arête a-c est enlevée.
+
 <script type="text/tikz">
 \begin{tikzpicture}
 	\tikzstyle{sommet}=[circle, draw=black!50,  thick]
@@ -322,5 +324,5 @@ Dans tout graphe simple ayant au moins deux sommets,
 il existe au moins deux sommets de même degré.
 ```
 
-[Index](./index.md)
+[Index](./index.md)  
 [Cours suivant](./cours_2.md)
