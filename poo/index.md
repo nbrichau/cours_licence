@@ -14,6 +14,9 @@ Introduction poo
 ## [Cours 2](./cours_2.md)
 Classes en Java
 
+## [Cours 3](./cours_3.md)
+Classes en Java
+
 ---
 
 ## [TD1](./TD1/)

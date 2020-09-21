@@ -1,5 +1,6 @@
 [Index](./index.md)  
 [Cours précédant](./cours_1.md)
+[Cours suivant](./cours_3.md)
 
 ## Classes d'objets
 Une classe est une définition de type d'objet  
@@ -120,3 +121,4 @@ Elles sont données dans le JDK
 
 [Index](./index.md)  
 [Cours précédant](./cours_1.md)
+[Cours suivant](./cours_3.md)
