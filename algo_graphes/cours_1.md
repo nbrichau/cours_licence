@@ -3,6 +3,7 @@
 <script src="https://tikzjax.com/v1/tikzjax.js"></script>
 
 [Index](./index.md)
+[Cours suivant](./cours_2.md)
 
 # Définitions
 
@@ -33,11 +34,11 @@ Un **graphe** G est un couple (V, E) où :
 * E est un ensemble d'éléments appelés **arêtes**, chaque arête étant composée de deux sommets V
 
 Exemple : G=(V,E) avec V={a,b,c,d,e} et E={e1=ab, e2=ad, e3=bc, e4=ce, e5=ce, e6=dd, e7=de}  
+
 <script type="text/tikz">
 \begin{tikzpicture}
 	\tikzstyle{etiquette}=[color=black]
 	\tikzstyle{sommet}=[circle, draw=black!50,  thick]
-
 	\node[sommet] (A) at (2,4) {a};
 	\node[sommet] (B) at (5,6) {b}
 		edge node [above, etiquette] {e1} (A);
@@ -59,26 +60,7 @@ Un arête qui relie un sommet à lui-même.
 #### Multi-arête
 Un ensemble d'arêtes qui relient les deux mêmes sommets.  
 
-Exemple : e6 est une boucle et {e4, e5} est une multi-arête.  
-<script type="text/tikz">
-\begin{tikzpicture}
-	\tikzstyle{etiquette}=[color=black]
-	\tikzstyle{sommet}=[circle, draw=black!50,  thick]
-
-	\node[sommet] (A) at (2,4) {a};
-	\node[sommet] (B) at (5,6) {b}
-		edge node [above, etiquette] {e1} (A);
-	\node[sommet] (C) at (8,4) {c}
-		edge node [above, etiquette] {e3} (B);
-	\node[sommet] (D) at (2,2) {d}
-		edge node [left, etiquette] {e2} (A)
-		edge[out=-90, in=-180, min distance=10mm] node [left, etiquette] {e6} (D);
-	\node[sommet] (E) at (8,2) {e}
-		edge[bend right] node [right, etiquette] {e4} (C)
-		edge[bend left] node [left, etiquette, bend right] {e5} (C)
-		edge node [above, etiquette] {e7} (D);
-\end{tikzpicture}
-</script>
+Exemple : e6 est une boucle et {e4, e5} est une multi-arête.
 
 #### Graphe Simple
 Un **graphe simple** est un graphe sans boucle ni arête multiple.
@@ -341,3 +323,4 @@ il existe au moins deux sommets de même degré.
 ```
 
 [Index](./index.md)
+[Cours suivant](./cours_2.md)

@@ -12,3 +12,7 @@ https://www.latex4technics.com/?note=299c
 ## [Cours 1](./cours_1.md)
 Vocabulaire de la logique.  
 [diapo prof](./cours_1.pdf)
+
+## [Cours 2](./cours_2.md)
+Notations et complexité.  
+[diapo prof](./cours_2.pdf)
