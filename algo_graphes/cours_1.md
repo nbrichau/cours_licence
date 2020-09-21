@@ -1,4 +1,5 @@
 [Index](./index.md)
+[Cours suivant](./cours_2.md)
 
 # Définitions
 
@@ -222,5 +223,5 @@ la somme des degrés sortants et au nombre d'arcs.
 Dans tout graphe simple ayant au moins deux sommets,
 il existe au moins deux sommets de même degré.
 ```
-
+[Cours suivant](./cours_2.md)
 [Index](./index.md)
