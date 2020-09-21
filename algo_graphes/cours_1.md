@@ -120,7 +120,7 @@ De même : $$\Gamma ^-(v)$$ est l'ensemble des prédécesseurs de v.
 Une **étiquette** est le nom d'un sommet.  
 L'**étiquetage** est l'ensemble des étiquettes d'un graphe.  
 Les étiquettes permettent de différencier deux graphes.  
-Les deux graphes suivants sont différents
+Les deux graphes suivants sont différents :
 
 <script type="text/tikz">
 \begin{tikzpicture}
@@ -135,13 +135,13 @@ Les deux graphes suivants sont différents
 		edge node {} (C);
 
 	\node[sommet] (AA) at (8,2) {$A$};
-	\node[sommet] (CC) at (10,2) {$B$}
+	\node[sommet] (BB) at (10,2) {$B$}
 		edge node {} (AA);
-	\node[sommet] (BB) at (10,0) {$C$}
-		edge node {} (CC);
-	\node[sommet] (DD) at (8,0) {$D$}
-		edge node {} (AA)
+	\node[sommet] (CC) at (10,0) {$D$}
 		edge node {} (BB);
+	\node[sommet] (DD) at (8,0) {$C$}
+		edge node {} (AA)
+		edge node {} (CC);
 \end{tikzpicture}
 </script>
 
