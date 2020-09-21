@@ -15,8 +15,8 @@ Introduction poo
 Classes en Java
 
 ## [Cours 3](./cours_3.md)
-Classes en Java
+Encapsulation
 
 ---
 
-## [TD1](./TD1/)
+## [TD1](https://github.com/nbrichau/cours_licence/tree/master/poo/TD1)
