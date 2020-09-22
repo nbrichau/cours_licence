@@ -1,5 +1,6 @@
 [Index](./index.md)  
-[Cours précédant](./cours_2.md)
+[Cours précédant](./cours_2.md)  
+[Cours suivant](./cours_3.md)
 
 ### Le concept des fichiers
 
@@ -22,7 +23,8 @@ Les droits peuvent être changé ou le fichier supprimé, on pourra toujours y a
 
 Ces vérifications ne sont pas faites dans des lectures/écritures pour que ça soit plus rapide et efficace.
 
-Après ouverture du fichier, le noyau nous retourne une clef `file descriptor` qui permet d'accélérer les prochaines lectures/écritures.
+Après ouverture du fichier, le noyau nous retourne une clef d'accès `file descriptor` qui permet d'accélérer les prochaines lectures/écritures.
 
 [Index](./index.md)  
-[Cours précédant](./cours_2.md)
+[Cours précédant](./cours_2.md)  
+[Cours suivant](./cours_3.md)
