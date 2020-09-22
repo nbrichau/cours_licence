@@ -1,6 +1,7 @@
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML"></script>
 
 [Index](./index.md)
+[Cours suivant](./cours_2.md)
 
 ## Vocabulaire de la logique
 
@@ -8,6 +9,13 @@
 Une proposition est un énoncé (mathématique, informatique, mais pas
 que) susceptible d’être démontré ou réfuté, pour lequel il fait sens de parler
 de vérité.  
+
+### Axiome :
+C'est une proposition $$H$$ que l'on admet vraie, et qui peut être utilisée dans une preuve de $$B$$.
+
+### Hypothèse :
+C'est une proposition $$H$$ que l'on admet vraie seulement dans une partie d'une preuve.  
+Si dans cette portée on montre la proposition $$B$$, on obtient alors une preuve de $$H\implies B$$ et non une preuve de $$B$$.
 
 #### Logique minimale
 Formules atomiques et implication comme seul connecteur:  
@@ -110,3 +118,4 @@ $$(A \land B) \lor C = (A \lor C) \land (B \lor C)$$
 $$(A \lor B) \land C = (A \land C) \lor (B \land C)$$
 
 [Index](./index.md)
+[Cours suivant](./cours_2.md)
