@@ -14,8 +14,8 @@
 
 ## [Cours 1](./cours_1.md)
 Vocabulaire de la logique.  
-[diapo prof](https://www.labri.fr/perso/duchon/Enseignements/L-et-P/SlidesCM1.pdf)
+[diapo prof]https://moodle1.u-bordeaux.fr/pluginfile.php/750988/mod_resource/content/1/cours1.pdf)
 
 ## [Cours 2](./cours_2.md)
 Logique minimale  
-[diapo prof](https://www.labri.fr/perso/duchon/Enseignements/L-et-P/SlidesCM2.pdf)
+[diapo prof](https://moodle1.u-bordeaux.fr/pluginfile.php/779143/mod_resource/content/1/cours2.pdf)

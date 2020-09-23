@@ -62,18 +62,40 @@ Si, en ajoutant $$A$$ à un jeu d’hypothèses, on peut prouver $$B$$, alors on
 
 $$\frac{\Gamma , A \vdash B}{\Gamma \vdash A \implies B}\implies i$$
 
+### Preuve en arbre de $$P\implies Q, Q\implies R \vdash P\implies R$$
 
+Dans cette preuve, $$\Gamma = \{P\implies Q, Q\implies R\}$$.
 
+$$\frac{\frac{}{\Gamma, P\vdash Q\implies R}hyp\ \ \frac{\frac{}{\Gamma, P\vdash P\implies Q}hyp\ \ \frac{}{\Gamma , P\vdash P}hyp}{\Gamma, P\vdash Q}mp}{\frac{\Gamma, P\vdash R}{\Gamma \vdash P\implies R}\implies i}mp$$
 
+### Preuve linéaire de $$P\implies Q, Q\implies R \vdash P\implies R$$
 
+1) Supposons $$P\implies Q$$  
+2) Supposons $$Q\implies R$$  
+3) { Supposons $$P$$  
+4) &nbsp;&nbsp;$$Q$$ [mp, 1, 3]  
+5) &nbsp;&nbsp;$$R$$ [mp, 2, 4]  
+6) }  
+7) $$P\implies R$$ [$$\implies i$$, 3, 5]  
 
+### Cohérence de la logique minimale
 
+Si un séquent $$\Gamma \vdash A$$ admet une preuve en logique minimale alors ce séquent est valide.
 
+Par contraposée :  
+Si un séquent n'est pas valide, il n'admet pas de preuve.
 
+*Attention : La réciproque n'est pas vraie. Un séquent valide n'est pas toujours prouvable.*
 
+### Règle dérivée
 
+C'est une règle de raisonnement telle que, si on l'ajoute à la panoplie des règles utilisables, tout séquent prouvable en utilisant les règles de base et la règle dérivée, est également prouvable en n'utilisant que les règles de base.
 
+#### Règle dérivée : affaiblissement
 
+$$\frac{\Gamma\vdash A}{\Gamma,\Delta\vdash A}aff$$
+
+Si on peut prouver quelque chose avec certaines hypothèses, on peut toujours prouver la même chose en ajoutant des hypothèses
 
 [Cours précédant](./cours_1.md)  
 [Index](./index.md)
