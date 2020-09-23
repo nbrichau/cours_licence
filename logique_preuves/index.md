@@ -12,12 +12,10 @@
 
 ---
 
-## [Rappel logique propositionnelle](./rappel_logique_propositionnelle.pdf) (diapo)
-
 ## [Cours 1](./cours_1.md)
 Vocabulaire de la logique.  
-[diapo prof](./cours_1.pdf)
+[diapo prof](https://www.labri.fr/perso/duchon/Enseignements/L-et-P/SlidesCM1.pdf)
 
 ## [Cours 2](./cours_2.md)
 Logique minimale  
-[diapo prof](./cours_2.pdf)
+[diapo prof](https://www.labri.fr/perso/duchon/Enseignements/L-et-P/SlidesCM2.pdf)

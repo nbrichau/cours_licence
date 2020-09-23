@@ -1,42 +1,30 @@
 [Index](./index.md)  
 [Cours précédant](./cours_1.md)  
-[Cours suivant](./cours_2_bis.md)
+[Cours suivant](./cours_3.md)
 
-### Restreindre les privilèges des processus
-Il existe une liste d'instruction interdite par les processus normaux et sont seulement autorisé au noyau.
+### Le concept des fichiers
 
-Le processeur vérifie avant chaque instruction s'il a le droit de l'exécuter  
-Il a deux modes d'exécution :
-- mode protégé : mode utilisateur
-- mode réel : mode noyau
+Unix : tout est fichier :
+- fichiers normaux
+- terminal
+- périphérique
+- etc
 
-Son mode d'exécution est enregistré dans un registre de contrôle
+Pour le noyau, c'est juste une liste de bytes.
+taille connue, peu grandir ou rapetissir
+droit d'accès
+a un ou plusieurs liens d'accès
 
-Si il n'a pas le droit ne faire une instruction alors le processeur lève une exception.  
-Le noyau récupère la main et décide de quoi faire (habituellement le noyau kill le processus).  
+### Manipuler des fichiers
+Il faut ouvrir un fichier avant de lire/écrire.  
+Le noyau vérifie si le chemin du fichier existe et que l'on a les droit d'y accéder et traverser les répertoires du chemin.  
+Le noyau nous garantie qu'après ouverture du fichier, celui-ci nous reste accessible jusqu'à sa fermeture, peu importe ce qu'il se passe sur le disque.  
+Les droits peuvent être changé ou le fichier supprimé, on pourra toujours y accéder tant qu'il est ouvert.
 
+Ces vérifications ne sont pas faites dans des lectures/écritures pour que ça soit plus rapide et efficace.
 
-Juste avant le jump du noyau, celui-ci change le mode du processeur en mode utilisateur.  
-
-Quand une interruption se produit, elle change le processeur en mode noyau automatiquement.  
-Elle stocke le mode dans lequel le processeur était. Au retour d'interruption, on récupère le mode qui était stocké.  
-
-Donc un processus ne s'exécute plus à l'infini et est limité dans ses actions.
-
-
-### Demander des privilèges
-Un processus n'a pas accès au matériel (comme le clavier ou l'écran).  
-Il doit demander l'autorisation au noyau.
-
-Un processus enregistre le numéro de la fonction qu'il veut utiliser dans un registre et lance une interruption avec un code spécifique (`syscall`).
-
-Ensuite le noyau reprend la main grâce à l'interruption, il regarde le numéro de la routine dans le registre et si ça lui semble correct alors il execute la fonction.
-
-`strace` liste les appels systèmes d'un processus
-
-### Structure d'un système
-processus + api syscall + noyau
+Après ouverture du fichier, le noyau nous retourne une clef d'accès `file descriptor` qui permet d'accélérer les prochaines lectures/écritures.
 
 [Index](./index.md)  
 [Cours précédant](./cours_1.md)  
-[Cours suivant](./cours_2_bis.md)
+[Cours suivant](./cours_3.md)

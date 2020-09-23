@@ -8,5 +8,8 @@
 
 ---
 
-## [Diapo Cours 0](./cours_0.pdf) - [\[Notes\]](./cours_0.md)
+## [Diapo Cours 0](https://moodle1.u-bordeaux.fr/pluginfile.php/756802/mod_resource/content/2/Cours0-Intro.pdf) - [\[Notes\]](./cours_0.md)
 Introduction - Contexte écologique  
+
+## [Diapo Cours 1](https://moodle1.u-bordeaux.fr/pluginfile.php/767374/mod_resource/content/0/Cours1-DereglementBilan.pdf)
+Dérèglement climatique

@@ -9,15 +9,12 @@
 ---
 
 ## [Cours 1](./cours_1.md)
-Introduction - Interruption et time sharing  
-[diapo prof](./cours_1.pdf)
+Introduction - Interruption, time sharing, privilèges des processus  
+[diapo prof](https://raymond-namyst.emi.u-bordeaux.fr/ens/ps/lectures/PS-Course-1.pdf)
 
 ## [Cours 2](./cours_2.md)
-Privilèges des processus  
-
-## [Cours 2 bis](./cours_2_bis.md)
 Concept de fichier  
-[diapo prof](./cours_2_bis.pdf)
+[diapo prof](https://raymond-namyst.emi.u-bordeaux.fr/ens/ps/lectures/PS-Course-2.pdf)
 
 ## [Cours 3](./cours_3.md)
 Manipulation de fichiers

@@ -1,6 +1,6 @@
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML"></script>
 
-[Index](./index.md)
+[Index](./index.md)  
 [Cours suivant](./cours_2.md)
 
 ## Vocabulaire de la logique
@@ -117,5 +117,5 @@ $$A \land B = B \land A$$
 $$(A \land B) \lor C = (A \lor C) \land (B \lor C)$$  
 $$(A \lor B) \land C = (A \land C) \lor (B \land C)$$
 
-[Index](./index.md)
+[Index](./index.md)  
 [Cours suivant](./cours_2.md)

@@ -12,8 +12,8 @@
 
 ## [Cours 1](./cours_1.md)
 Vocabulaire de la logique.  
-[diapo prof](./cours_1.pdf)
+[diapo prof](https://dept-info.labri.fr/~baudon/Licence/Algo2/Cours/Cours/AG1.pdf)
 
 ## [Cours 2](./cours_2.md)
 Notations et complexité.  
-[diapo prof](./cours_2.pdf)
+[diapo prof](https://dept-info.labri.fr/~baudon/Licence/Algo2/Cours/Cours/AG2.pdf)

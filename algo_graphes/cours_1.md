@@ -75,7 +75,7 @@ Deux sommets reliés par une arête sont **voisins** (=**adjacent**).
 L'ensemble des voisins d'un sommet v est appelé le **voisinage** de v.  
 Il est noté : $$\Gamma (v)$$  
 
-![exemple voisinage](./img_cours_1_3.png)
+![exemple voisinage](./img/img_cours_1_3.png)
 
 #### Incidence
 Une arête e=uv est **incidente** aux sommets u et v.  
@@ -277,9 +277,9 @@ Graphe dont tout les sommets sont reliés ensemble.
 #### Matrice d'adjacence
 Matrice n*n (graphe à n sommets) qui contient le nombre d'arêtes/arcs entre les sommets du graphe
 
-![matrice adjacence graphe non orienté](./img_cours_1_4.png)
+![matrice adjacence graphe non orienté](./img/img_cours_1_4.png)
 
-![matrice adjacence graphe orienté](./img_cours_1_5.png)
+![matrice adjacence graphe orienté](./img/img_cours_1_5.png)
 
 #### Matrice d'incidence
 Matrice n*m (graphe à n sommets et m arêtes/arcs) qui contient le nombre d'incidence entre le sommet et l'arête/arc.  
@@ -294,9 +294,9 @@ Graphe orienté :
 - 1 si destination arc
 - 0 si boucle ou pas incident
 
-![matrice incidence graphe non orienté](./img_cours_1_6.png)
+![matrice incidence graphe non orienté](./img/img_cours_1_6.png)
 
-![matrice incidence graphe orienté](./img_cours_1_7.png)
+![matrice incidence graphe orienté](./img/img_cours_1_7.png)
 
 #### Liste d'adjacence
 Un graphe peux être représenté par la liste d'adjacence de ses sommets.  

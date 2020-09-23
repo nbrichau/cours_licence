@@ -1,5 +1,5 @@
 [Index](./index.md)  
-[Cours précédant](./cours_2_bis.md)
+[Cours précédant](./cours_2.md)
 
 ### Ouverture de fichier
 
@@ -89,4 +89,4 @@ Utilité de faire deux `open` ?
 -> permet d'avoir deux offsets indépendants sur le même fichier.
 
 [Index](./index.md)  
-[Cours précédant](./cours_2_bis.md)
+[Cours précédant](./cours_2.md)
