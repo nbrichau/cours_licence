@@ -75,7 +75,27 @@ Deux sommets reliés par une arête sont **voisins** (=**adjacent**).
 L'ensemble des voisins d'un sommet v est appelé le **voisinage** de v.  
 Il est noté : $$\Gamma (v)$$  
 
-![exemple voisinage](./img/img_cours_1_3.png)
+Exemple : $$\Gamma(S_2) = \{S_1, S_3, S_4\},\ \Gamma(S_5) = \{S_1, S_4, S_5\},\ \Gamma(S_6) = \O$$
+
+<script type="text/tikz">
+\begin{tikzpicture}
+	\tikzstyle{sommet}=[circle, draw=black!50,  thick]
+	\node[sommet] (S1) at (2,2) {$S_1$};
+	\node[sommet] (S2) at (2,4) {$S_2$}
+		edge node {} (S1);
+	\node[sommet] (S3) at (5,6) {$S_3$}
+		edge node {} (S1)
+		edge node {} (S2);
+	\node[sommet] (S4) at (8,4) {$S_4$}
+		edge node {} (S2)
+		edge node {} (S3);
+	\node[sommet] (S5) at (8,2) {$S_5$}
+		edge node {} (S1)
+		edge node {} (S4)
+		edge[out=0, in=-90, min distance=10mm] node {} (S5);
+	\node[sommet] (S6) at (5,1) {$S_6$};
+\end{tikzpicture}
+</script>
 
 #### Incidence
 Une arête e=uv est **incidente** aux sommets u et v.  
@@ -277,9 +297,67 @@ Graphe dont tout les sommets sont reliés ensemble.
 #### Matrice d'adjacence
 Matrice n*n (graphe à n sommets) qui contient le nombre d'arêtes/arcs entre les sommets du graphe
 
-![matrice adjacence graphe non orienté](./img/img_cours_1_4.png)
+###### Graphe non orienté
 
-![matrice adjacence graphe orienté](./img/img_cours_1_5.png)
+<script type="text/tikz">
+\begin{tikzpicture}
+	\tikzstyle{sommet}=[circle, draw=black!50,  thick]
+	\node[sommet] (A) at (0,2) {$A$}
+		edge[out=135, in=45, min distance=10mm] node {} (A);
+	\node[sommet] (B) at (2,2) {$B$}
+		edge node {} (A);
+	\node[sommet] (C) at (2,0) {$C$}
+		edge node {} (B);
+	\node[sommet] (D) at (0,0) {$D$}
+		edge node {} (C);
+\end{tikzpicture}
+</script>
+
+$$
+\begin{matrix}
+A\\
+B\\
+C\\
+D
+\end{matrix}
+\begin{pmatrix}
+1 & 1 & 0 & 0\\
+1 & 0 & 1 & 0\\
+0 & 1 & 0 & 1\\
+0 & 0 & 1 & 0
+\end{pmatrix}
+$$
+
+###### Graphe orienté
+
+<script type="text/tikz">
+\begin{tikzpicture}[->]
+	\tikzstyle{sommet}=[circle, draw=black!50,  thick]
+	\node[sommet] (D) at (0,0) {$D$};
+	\node[sommet] (C) at (2,0) {$C$}
+	    edge node {} (D);
+	\node[sommet] (B) at (2,2) {$B$}
+		edge node {} (C);
+	\node[sommet] (A) at (0,2) {$A$}
+		edge[out=45, in=135, min distance=10mm] node {} (A)
+		edge node {} (B);
+\end{tikzpicture}
+</script>
+
+$$
+\begin{matrix}
+A\\
+B\\
+C\\
+D
+\end{matrix}
+\begin{pmatrix}
+1 & 1 & 0 & 0\\
+0 & 0 & 1 & 0\\
+0 & 0 & 0 & 1\\
+0 & 0 & 0 & 0
+\end{pmatrix}
+$$
 
 #### Matrice d'incidence
 Matrice n*m (graphe à n sommets et m arêtes/arcs) qui contient le nombre d'incidence entre le sommet et l'arête/arc.  
@@ -294,9 +372,69 @@ Graphe orienté :
 - 1 si destination arc
 - 0 si boucle ou pas incident
 
-![matrice incidence graphe non orienté](./img/img_cours_1_6.png)
+###### Graphe non orienté
 
-![matrice incidence graphe orienté](./img/img_cours_1_7.png)
+<script type="text/tikz">
+\begin{tikzpicture}
+	\tikzstyle{sommet}=[circle, draw=black!50,  thick]
+	\node[sommet] (A) at (0,2) {$A$}
+		edge[out=135, in=45, min distance=10mm] node {} (A);
+	\node[sommet] (B) at (2,2) {$B$}
+		edge node {} (A);
+	\node[sommet] (C) at (2,0) {$C$}
+		edge node {} (B);
+	\node[sommet] (D) at (0,0) {$D$}
+		edge node {} (B)
+		edge node {} (C);
+\end{tikzpicture}
+</script>
+
+$$
+\begin{matrix}
+A\\
+B\\
+C\\
+D
+\end{matrix}
+\begin{pmatrix}
+2 & 1 & 0 & 0 & 0\\
+0 & 1 & 1 & 1 & 0\\
+0 & 0 & 1 & 0 & 1\\
+0 & 0 & 0 & 1 & 1
+\end{pmatrix}
+$$
+
+###### Graphe orienté
+
+<script type="text/tikz">
+\begin{tikzpicture}[->]
+	\tikzstyle{sommet}=[circle, draw=black!50,  thick]
+	\node[sommet] (D) at (0,0) {$D$};
+	\node[sommet] (C) at (2,0) {$C$}
+	    edge node {} (D);
+	\node[sommet] (B) at (2,2) {$B$}
+		edge node {} (C)
+		edge node {} (D);
+	\node[sommet] (A) at (0,2) {$A$}
+		edge[out=45, in=135, min distance=10mm] node {} (A)
+		edge node {} (B);
+\end{tikzpicture}
+</script>
+
+$$
+\begin{matrix}
+A\\
+B\\
+C\\
+D
+\end{matrix}
+\begin{pmatrix}
+0 & -1 & 0 & 0 & 0\\
+0 & 1 & -1 & -1 & 0\\
+0 & 0 & 1 & 0 & -1\\
+0 & 0 & 0 & 1 & 1
+\end{pmatrix}
+$$
 
 #### Liste d'adjacence
 Un graphe peux être représenté par la liste d'adjacence de ses sommets.  
