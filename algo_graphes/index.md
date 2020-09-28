@@ -17,3 +17,7 @@ Vocabulaire de la logique.
 ## [Cours 2](./cours_2.md)
 Notations et complexité.  
 [diapo prof](https://dept-info.labri.fr/~baudon/Licence/Algo2/Cours/Cours/AG2.pdf)
+
+## [Cours 3](./cours_3.md)
+Notations et complexité.  
+[diapo prof](https://dept-info.labri.fr/~baudon/Licence/Algo2/Cours/Cours/AG3.pdf)

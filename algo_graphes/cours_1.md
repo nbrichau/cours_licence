@@ -7,27 +7,6 @@
 
 # Définitions
 
-<script type="text/tikz">
-\begin{tikzpicture}
-	\tikzstyle{etiquette}=[color=black]
-	\tikzstyle{sommet}=[circle, draw=black!50,  thick]
-
-	\node[sommet] (1) at (0,1.5) {$1$};
-	\node[sommet] (2) at (3,1.5) {$2$}
-		edge node [above, etiquette] {$e_1$} (1);
-	\node[sommet] (4) at (6,1.5) {$4$}
-		edge node [above, etiquette] {$e_4$} (2);
-
-	\node[sommet] (3) at (1.5,0) {$3$}
-		edge node [left, etiquette]  {$e_2$} (1)
-		edge node [right, etiquette] {$e_3$} (2);
-	\node[sommet] (5) at (4.5,0) {$5$}
-		edge node [left, etiquette]  {$e_5$} (2)
-		edge node [below, etiquette] {$e_6$} (3)
-		edge node [right, etiquette] {$e_7$} (4);
-\end{tikzpicture}
-</script>
-
 ## Graphe Non Orienté
 Un **graphe** G est un couple (V, E) où :
 * V est un ensemble *non vide* dont les éléments sont appelés **sommets**
@@ -75,7 +54,7 @@ Deux sommets reliés par une arête sont **voisins** (=**adjacent**).
 L'ensemble des voisins d'un sommet v est appelé le **voisinage** de v.  
 Il est noté : $$\Gamma (v)$$  
 
-Exemple : $$\Gamma(S_2) = \{S_1, S_3, S_4\},\ \Gamma(S_5) = \{S_1, S_4, S_5\},\ \Gamma(S_6) = \O$$
+Exemple : $$\Gamma(S_2) = \{S_1, S_3, S_4\},\ \Gamma(S_5) = \{S_1, S_4, S_5\},\ \Gamma(S_6) = \O $$
 
 <script type="text/tikz">
 \begin{tikzpicture}
@@ -116,7 +95,7 @@ $$\delta (G)$$ : Degré minimum
 ## Graphe Orienté
 On ne parle plus d'arêtes mais d'**arcs**. On dessine des flèches au lieu de traits.  
 
-Arc uv reliant le sommet u au sommet v (u⟶v):
+Arc uv reliant le sommet u au sommet v (u$$\implies $$v):
 - uv est un arc **sortant** de u
 - uv est un arc **entrant** de v
 - u est un **prédécesseur** de v
