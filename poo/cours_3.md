@@ -1,5 +1,6 @@
 [Index](./index.md)  
-[Cours précédant](./cours_2.md)
+[Cours précédant](./cours_2.md)  
+[Cours suivant](./cours_4.md)
 
 ## Encapsulation
 
@@ -57,4 +58,5 @@ class Main {
 
 
 [Index](./index.md)  
-[Cours précédant](./cours_2.md)
+[Cours précédant](./cours_2.md)  
+[Cours suivant](./cours_4.md)

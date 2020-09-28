@@ -17,6 +17,5 @@ Classes en Java
 ## [Cours 3](./cours_3.md)
 Encapsulation
 
----
-
-## [TD1](https://github.com/nbrichau/cours_licence/tree/master/poo/TD1)
+## [Cours 4](./cours_4.md)
+Héritage
