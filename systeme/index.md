@@ -18,3 +18,6 @@ Concept de fichier
 
 ## [Cours 3](./cours_3.md)
 Manipulation de fichiers
+
+## [Cours 4](./cours_4.md)
+Manipulation d'offset et duplication de file descriptor
