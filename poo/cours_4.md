@@ -1,5 +1,6 @@
 [Index](./index.md)  
-[Cours précédant](./cours_3.md)
+[Cours précédant](./cours_3.md)  
+[Cours suivant](./cours_5.md)
 
 ## Héritage
 
@@ -51,6 +52,8 @@ La classe Plane est une spécialisation de la classe Vehicule.
 
 Il est possible de faire des héritage multiple (hériter d'une classe qui hérite elle-même d'une autre classe). On hérite ainsi de tout les attributs et méthodes de ses classes mères.
 
+On ne peux hériter que d'une seule classe.
+
 Tout les classes en Java héritent implicitement de la classe `Object`.
 
 ### Redéfinition de méthode
@@ -88,4 +91,5 @@ Repose sur :
 C'est une sorte d'encapsulation de la classe.
 
 [Index](./index.md)  
-[Cours précédant](./cours_3.md)
+[Cours précédant](./cours_3.md)  
+[Cours suivant](./cours_5.md)
