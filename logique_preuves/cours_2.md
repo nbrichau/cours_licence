@@ -1,7 +1,8 @@
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML"></script>
 
 [Index](./index.md)  
-[Cours précédant](./cours_1.md)
+[Cours précédant](./cours_1.md)  
+[Cours suivant](./cours_4.md)
 
 ### Preuves formelles
 On cherche à prouver une assertion donnée dans un contexte donné (sous certaines hypothèses).
@@ -97,5 +98,6 @@ $$\frac{\Gamma\vdash A}{\Gamma,\Delta\vdash A}aff$$
 
 Si on peut prouver quelque chose avec certaines hypothèses, on peut toujours prouver la même chose en ajoutant des hypothèses
 
+[Index](./index.md)  
 [Cours précédant](./cours_1.md)  
-[Index](./index.md)
+[Cours suivant](./cours_4.md)
