@@ -4,6 +4,7 @@
 
 [Index](./index.md)  
 [Cours précédant](./cours_2.md)  
+[Cours suivant](./cours_4.md)
 
 ## Parcours en profondeur
 On examine les sommets du graphe en partant d'un sommet s.  
@@ -81,15 +82,6 @@ Le tri topologique d’un graphe G orienté est un ordonnancement de ses sommets
 ##### Théorème
 Un graphe G orienté admet un tri topologique si et seulement si il est sans circuit.
 
-## Arbre
-Un arbre est un graphe (non orienté) connexe sans cycle.  
-Caractéristiques :
-- G est un arbre.
-- G est sans cycle et possède m arêtes avec m = n - 1.
-- G est connexe et possède m arêtes avec m = n - 1.
-- G est sans cycle, et en ajoutant une arête on obtient un graphe ayant un cycle (et un seul).
-- G est connexe, et si on supprime une arête quelconque le graphe obtenu n'est plus connexe.
-- Tout couple de sommets est relié par une chaîne élémentaire et une seule.
-
 [Index](./index.md)  
 [Cours précédant](./cours_2.md)  
+[Cours suivant](./cours_4.md)
