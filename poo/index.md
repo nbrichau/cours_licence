@@ -28,4 +28,4 @@ Encapsulation
 Héritage
 
 ## [Cours 5](./cours_5.md)
-Conception
+Conception et Classes Abstraites

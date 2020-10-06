@@ -1,5 +1,6 @@
 [Index](./index.md)  
-[Cours précédant](./cours_3.md)
+[Cours précédant](./cours_3.md)  
+[Cours suivant](./cours_5.md)
 
 ### Changer l'offset d'un fichier
 
@@ -34,4 +35,5 @@ int dup2(int src_fd, int dst_fd);
 fopen, fwrite, fread, ... ont un buffer interne qui permet d'éviter des appels système a chaque fois.
 
 [Index](./index.md)  
-[Cours précédant](./cours_3.md)
+[Cours précédant](./cours_3.md)  
+[Cours suivant](./cours_5.md)
