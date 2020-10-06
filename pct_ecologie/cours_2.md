@@ -76,5 +76,37 @@ trouver des exemples d'effets rebonds
 
 Les nouveaux moyens de productions d'énergie ne font que rajouter des modes de productions et non remplacer les anciens modes.
 
+## Impact direct : fabrication
+Kilos de matières premières pour fabriquer un smartphone : 70 Kg environ
+aluminium, plastique, verre, métaux rares, ... (plus de 70 différents matériaux)
+
+Ordinateur : 800 Kg de matières premières
+
+## Impact direct : ressources
+
+- Risque de pénurie.  
+Ils sont aussi utilisés pour la production des énergies renouvelables
+
+- Extraction.  
+Destruction écosystème, pollution des sols, ...  
+travail des enfants, conflits armés, ...
+
+## Impact direct : déchets et valorisation
+
+pollution électronique aux abords d'une rivière.  
+décharges en plein air, ...
+
+déchets électronique en France : 21 Kg /personne /ans
+
+recyclage complexe et onéreux car beaucoup de matériaux différents.
+
+
+
+
+
+
+
+
+
 [Index](./index.md)  
 [Cours précédant](./cours_1.md)
