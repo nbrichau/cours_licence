@@ -30,7 +30,7 @@ Une variable *temps*, initialisée à 0, sert à définir pour chaque sommet u d
 	\node[sommet] (C) at (0,0) {$C$}
 		edge node {} (S)
 		edge node {} (B);
-	\node[sommet] (D) at (1,4) {$D$}
+	\node[sommet] (D) at (4,1) {$D$}
 		edge node {} (A)
 		edge node {} (B);
 
@@ -58,11 +58,11 @@ Il n'y a que des arcs de liaison ou des arcs retour. Il n'y a pas d'arc avant ni
 
 Soit u et v deux sommets de G, et [d(u), f (u)], [d(v), f (v)] les intervalles définis par leurs heures de début et fin de visite. On suppose que d(u) < d(v). Deux cas sont possibles :  
 - Soit [d(v), f (v)] $$\subset$$ [d(u), f (u)]. Dans ce cas v est un descendant de u.
-- Soit [d(v), f (v)] $$\cap$$ [d(u), f (u)] = $$\o$$. Dans ce cas, aucun des deux n’est le descendant de l’autre dans l’arborescence.
+- Soit [d(v), f (v)] $$\cap$$ [d(u), f (u)] = $$\emptyset $$. Dans ce cas, aucun des deux n’est le descendant de l’autre dans l’arborescence.
 
 Justification :
 - dans le cas où [d(v), f (v)] $$\subset$$ [d(u), f (u)], cela signifie que v a été visité quand u était GRIS. Donc v sera un descendant de v et on finira la visite de v avant celle de u.
-- Si [d(v), f (v)] $$\cap$$ [d(u), f (u)] = $$\o$$, alors comme d(v) > d(u), on a f (v) > d(v) > f (u) > d(u) et donc, on aura fini de visiter u avant de commencer la visite de v.
+- Si [d(v), f (v)] $$\cap$$ [d(u), f (u)] = $$\emptyset$$, alors comme d(v) > d(u), on a f (v) > d(v) > f (u) > d(u) et donc, on aura fini de visiter u avant de commencer la visite de v.
 
 ## Théorème du chemin blanc
 

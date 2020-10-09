@@ -18,7 +18,7 @@ Exemple :
 $$P\implies Q, P, Q\implies \bot \vdash R$$  
 Ce séquent est valide car aucune valuation ne peut rendre vraie simultanément les trois hypothèses.
 
-#### Élimination de la contradiction ($$\bot _e$$)
+#### Élimination de la contradiction ($$\bot _e $$)
 "Ex falso quodlibet"  
 principe d'explosion  
 
@@ -41,10 +41,10 @@ Ainsi, pas de nouvelles règles de raisonnement et les méta-théorèmes restent
 ### Règles dérivées
 
 ##### Expansion de la macro $$\sim$$
-$$\frac{\Gamma \vdash A \implies \bot}{\Gamma \vdash \sim A}\sim -exp$$
+$$\frac{\Gamma \vdash A \implies \bot}{\Gamma \vdash \sim A}\sim _exp$$
 
 ##### Introduction de la négation
-$$\frac{\Gamma , A \vdash \bot}{\Gammma \vdash \sim A}\sim _i$$
+$$\frac{\Gamma , A \vdash \bot}{\Gamma \vdash \sim A}\sim _i$$
 
 ##### Contraposée
 $$\frac{\Gamma \vdash A \implies B}{\Gamma \vdash \sim B \implies \sim A}contraposée$$

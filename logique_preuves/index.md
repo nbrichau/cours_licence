@@ -9,6 +9,7 @@
 #### [Liste de symboles logiques](https://fr.wikipedia.org/wiki/Liste_de_symboles_logiques)
 
 <!-- https://www.codecogs.com/latex/eqneditor.php -->
+<!-- https://www.tuhh.de/MathJax/test/sample-dynamic.html -->
 
 ---
 
@@ -24,6 +25,6 @@ Logique minimale
 Utilisation de coq  
 [diapo prof](https://moodle1.u-bordeaux.fr/pluginfile.php/804022/mod_resource/content/1/cours3.pdf)
 
-## [Cours 4](./cours_3.md)
+## [Cours 4](./cours_4.md)
 Contradiction et négation.  
 [diapo prof](https://moodle1.u-bordeaux.fr/pluginfile.php/815764/mod_resource/content/1/cours4.pdf)

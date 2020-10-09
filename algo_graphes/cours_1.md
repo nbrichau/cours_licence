@@ -54,7 +54,7 @@ Deux sommets reliés par une arête sont **voisins** (=**adjacent**).
 L'ensemble des voisins d'un sommet v est appelé le **voisinage** de v.  
 Il est noté : $$\Gamma (v)$$  
 
-Exemple : $$\Gamma(S_2) = \{S_1, S_3, S_4\},\ \Gamma(S_5) = \{S_1, S_4, S_5\},\ \Gamma(S_6) = \O $$
+Exemple : $$\Gamma(S_2) = \{S_1, S_3, S_4\},\ \Gamma(S_5) = \{S_1, S_4, S_5\},\ \Gamma(S_6) = \emptyset $$
 
 <script type="text/tikz">
 \begin{tikzpicture}
