@@ -3,7 +3,8 @@
 <script src="https://tikzjax.com/v1/tikzjax.js"></script>
 
 [Index](./index.md)  
-[Cours précédant](./cours_3.md)
+[Cours précédant](./cours_3.md)  
+[Cours suivant](./cours_5.md)
 
 ## Composantes fortement connexes
 
@@ -66,8 +67,10 @@ Essentiellement :
 
 L'algorithme de Kruskal considère les arêtes une à une dans l'ordre croissant de leur poids et ne les gardes que si elles ne créent pas un cycle.
 
+## Algorithme de Prim
 
-
+L'algorithme de Prim construit un arbre T en rajoutant à chaque étape le sommet qui n'est pas encore dans l'arbre et qui possède l'arête de poids minimum parmi celles reliant les sommets de T aux sommets de G-T.
 
 [Index](./index.md)  
-[Cours précédant](./cours_3.md)
+[Cours précédant](./cours_3.md)  
+[Cours suivant](./cours_5.md)

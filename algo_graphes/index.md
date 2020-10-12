@@ -26,4 +26,8 @@ Parcours en profondeur.
 
 ## [Cours 4](./cours_4.md)
 Composantes connexes et arbres  
-[diapo prof](https://dept-info.labri.fr/~baudon/Licence/Algo2/Cours/Cours/AG3.pdf)
+[diapo prof](https://dept-info.labri.fr/~baudon/Licence/Algo2/Cours/Cours/AG4.pdf)
+
+## [Cours 5](./cours_5.md)
+.  
+[diapo prof](https://dept-info.labri.fr/~baudon/Licence/Algo2/Cours/Cours/AG5.pdf)
