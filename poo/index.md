@@ -28,4 +28,7 @@ Encapsulation
 Héritage
 
 ## [Cours 5](./cours_5.md)
-Conception et Classes Abstraites
+Conception,  Classes Abstraites, Packages, `final`
+
+## [Cours 6](./cours_6.md)
+Interfaces, Exception

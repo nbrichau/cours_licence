@@ -1,5 +1,6 @@
 [Index](./index.md)  
-[Cours précédant](./cours_4.md)
+[Cours précédant](./cours_4.md)  
+[Cours suivant](./cours_6.md)
 
 ## Conception
 
@@ -63,10 +64,46 @@ public class Rectangle extends Shape {
 
 Pour plus de détail, voir la [Javadoc](https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html).
 
+## Package
 
+les packages sont représenté sous forme de dossier et avec des adresses dns inversées.
 
+exemple :  
+dossiers : `com/google/guava/`  
+adresse : `package com.google.guava`
 
+Pour utiliser une classe d'un package différent, il faut l'importer.  
+`import java.lang.*` : on importe tout les classes du package.  
+`import java.lang.Math` : on importe seulement la classe Math.
 
+## Mot clef `final`
+
+Une variable déclarée finale ne peux pas être modifiée une fois qu'elle est initialisé.  
+Son initialisation se fait lors de la déclaration ou dans le constructeur.
+
+Ex :
+```java
+final int x = 2;
+```
+
+Une méthode finale ne peux pas être redéfinie.
+
+Ex :
+```java
+final int fct(){
+	return 0;
+}
+```
+
+Une classe finale ne peux pas être héritée. Aucune classe ne peux héritée de celle-ci.
+
+Ex :
+```java
+public final class MyClass {
+	//some code
+}
+```
 
 [Index](./index.md)  
-[Cours précédant](./cours_4.md)
+[Cours précédant](./cours_4.md)  
+[Cours suivant](./cours_6.md)
