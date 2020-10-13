@@ -1,5 +1,7 @@
 [Index](./index.md)  
-[Cours précédant](./cours_1.md)
+[Cours précédant](./cours_1.md)  
+[Cours suivant](./cours_3.md)
+
 
 ## Indicateurs de développement durable des régions
 - empreinte écologique
@@ -101,4 +103,5 @@ déchets électronique en France : 21 Kg /personne /ans
 recyclage complexe et onéreux car beaucoup de matériaux différents.
 
 [Index](./index.md)  
-[Cours précédant](./cours_1.md)
+[Cours précédant](./cours_1.md)  
+[Cours suivant](./cours_3.md)

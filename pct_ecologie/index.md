@@ -14,5 +14,8 @@ Introduction - Contexte écologique
 ## [Diapo Cours 1](https://moodle1.u-bordeaux.fr/pluginfile.php/767374/mod_resource/content/0/Cours1-DereglementBilan.pdf) - [\[Notes\]](./cours_1.md)
 Dérèglement climatique
 
-## [Cours 2](./cours_2.md)
+## [Diapo Cours 2](https://moodle1.u-bordeaux.fr/pluginfile.php/821182/mod_resource/content/0/Cours2-ImpactsNumerique-EffetsRebonds.pdf) - [\[Cours 2\]](./cours_2.md)
 Impact du numérique
+
+## [Cours 3](./cours_3.md)
+Effets du numérique sur la santé
