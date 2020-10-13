@@ -1,5 +1,6 @@
 [Index](./index.md)  
-[Cours précédant](./cours_4.md)
+[Cours précédant](./cours_4.md)  
+[Cours suivant](./cours_6.md)
 
 ## Processus
 
@@ -39,33 +40,33 @@ Le noyau stocke en plus :
 clone le processus  
 espace d'adressage dupliqué  
 
-
 Fork retourne :
 - côté père : pid du fils
 - côté fils : 0
 
+### Attendre la fin d'un fils
 
+`pid_t wait(int* stat_loc);`
 
+`pid_t waitpid(pid_t pid, int* stat_loc, int options);`  
+(peux être non bloquant)
 
+### transformation de processus
 
+un processus peux redémarrer et executer un nouveau programme
 
+`int execlp(char* file, char* arg0, ..., NULL);`
 
+ex : `execl("/bin/ls", "ls", "-l", NULL);`
 
+un exec efface tout son espace d'adressage pour mettre un nouveau code à la place.  
+les attributs du processus sont pas effacé (ex: file descriptor table).  
+Ainsi les redirections d'input/output sont conservées.
 
+### Etat d'un processus
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+Ready -> Running -> Blocked
 
 [Index](./index.md)  
-[Cours précédant](./cours_4.md)
+[Cours précédant](./cours_4.md)  
+[Cours suivant](./cours_6.md)

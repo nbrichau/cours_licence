@@ -8,7 +8,6 @@
 
 ---
 
-test moodle 10 min lundi 12 octobre 10%  
 tp noté en novembre 30%  
 projet en binome 30% séance 9 à 12  
 ds sur table (pas écriture de code mais compréhension) pendant semaine examens 30%

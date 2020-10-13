@@ -27,3 +27,7 @@ Manipulation d'offset et duplication de file descriptor
 ## [Cours 5](./cours_5.md)
 Manipulation de processus  
 [diapo prof](https://raymond-namyst.emi.u-bordeaux.fr/ens/ps/lectures/PS-Course-3.pdf)
+
+## [Cours 6](./cours_6.md)
+Pipes  
+[diapo prof](https://raymond-namyst.emi.u-bordeaux.fr/ens/ps/lectures/PS-Course-3.pdf)
