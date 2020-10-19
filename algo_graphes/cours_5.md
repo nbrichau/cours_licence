@@ -3,7 +3,8 @@
 <script src="https://tikzjax.com/v1/tikzjax.js"></script>
 
 [Index](./index.md)  
-[Cours précédant](./cours_4.md)
+[Cours précédant](./cours_4.md)  
+[Cours suivant](./cours_6.md)
 
 ## Plus court chemin
 
@@ -30,16 +31,10 @@ fin si
 
 On peut utiliser l'algorithme de Dijkstra à condition que la fonction $$\omega$$ de pondération des arcs soit positive.
 
+## Algorithme de Bellman
 
-
-
-
-
-
-
-
-
-
+[...]
 
 [Index](./index.md)  
-[Cours précédant](./cours_4.md)
+[Cours précédant](./cours_4.md)  
+[Cours suivant](./cours_6.md)

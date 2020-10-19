@@ -29,5 +29,9 @@ Composantes connexes et arbres
 [diapo prof](https://dept-info.labri.fr/~baudon/Licence/Algo2/Cours/Cours/AG4.pdf)
 
 ## [Cours 5](./cours_5.md)
-.  
+Plus court chemin, relâchement, Dijkstra, Bellman  
 [diapo prof](https://dept-info.labri.fr/~baudon/Licence/Algo2/Cours/Cours/AG5.pdf)
+
+## [Cours 6](./cours_6.md)
+Bellman-Ford  
+[diapo prof](https://dept-info.labri.fr/~baudon/Licence/Algo2/Cours/Cours/AG6.pdf)
