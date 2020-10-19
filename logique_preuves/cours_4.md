@@ -1,7 +1,8 @@
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML"></script>
 
 [Index](./index.md)  
-[Cours précédant](./cours_2.md)
+[Cours précédant](./cours_2.md)  
+[Cours suivant](./cours_5.md)
 
 ### Contradiction ($$\bot$$)
 La contradiction est une formule à elle même.  
@@ -53,4 +54,5 @@ $$\frac{\Gamma \vdash A \implies B}{\Gamma \vdash \sim B \implies \sim A}contrap
 $$\frac{\Gamma \vdash A \ \ \ \ \Gamma \vdash \sim A}{\Gamma \vdash B}abs$$
 
 [Index](./index.md)  
-[Cours précédant](./cours_2.md)
+[Cours précédant](./cours_2.md)  
+[Cours suivant](./cours_5.md)

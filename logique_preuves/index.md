@@ -28,3 +28,11 @@ Utilisation de coq
 ## [Cours 4](./cours_4.md)
 Contradiction et négation.  
 [diapo prof](https://moodle1.u-bordeaux.fr/pluginfile.php/815764/mod_resource/content/1/cours4.pdf)
+
+## [Cours 5](./cours_5.md)
+NULL  
+[diapo prof](https://moodle1.u-bordeaux.fr/pluginfile.php/843754/mod_resource/content/1/cours5.pdf)
+
+## [Cours 6](./cours_6.md)
+Conjonction et Disjonction.  
+[diapo prof](#)
