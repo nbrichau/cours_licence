@@ -31,3 +31,6 @@ Conception,  Classes Abstraites, Packages, `final`
 
 ## [Cours 6](./cours_6.md)
 Interfaces, Exception
+
+## [Cours 7](./cours_7.md)
+Interfaces avec du code, Exception

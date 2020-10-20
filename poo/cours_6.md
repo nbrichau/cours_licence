@@ -1,5 +1,6 @@
 [Index](./index.md)  
-[Cours précédant](./cours_5.md)
+[Cours précédant](./cours_5.md)  
+[Cours suivant](./cours_7.md)
 
 classes :
 - type des objets (données, traitements)
@@ -62,10 +63,11 @@ Une interface sert à définir la vision utilisateur d'un objet.
 
 ```java
 try {
-	
+
 } catch(Exception e) {
 
 }
 ```
 [Index](./index.md)  
-[Cours précédant](./cours_5.md)
+[Cours précédant](./cours_5.md)  
+[Cours suivant](./cours_7.md)
