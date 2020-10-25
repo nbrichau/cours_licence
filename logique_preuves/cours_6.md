@@ -6,7 +6,25 @@
 
 # Logique propositionnelle
 
-### [...]
+## La conjonction ($$\land$$)
+
+$$A \land B$$ est vrai si A est vrai et B est vrai
+
+|$$A$$|$$B$$|$$A\land B$$|
+|-|-|-|
+|V|V|V|
+|V|F|F|
+|F|V|F|
+|F|F|F|
+
+### Règle d'introduction
+
+$$\frac{\Gamma\vdash A\qquad\Gamma\vdash B}{\Gamma\vdash A\land B}\land_i$$
+
+### Règle d'élimination
+
+$$\frac{\Gamma\vdash A\land B\qquad\Gamma, A, B\vdash C}{\Gamma\vdash C}\land_e$$
+
 
 ### Règles dérivées sur la conjonction
 
@@ -21,7 +39,7 @@ $$\frac{\Gamma , A, B \vdash C}{\Gamma , A\land B \vdash C} \land '_e$$
 
 $$A \lor B$$ est vrai si A est vrai ou B est vrai
 
-|$$A$$|$$B$$|$$A\land B$$|
+|$$A$$|$$B$$|$$A\lor B$$|
 |-|-|-|
 |V|V|V|
 |V|F|V|
@@ -30,13 +48,13 @@ $$A \lor B$$ est vrai si A est vrai ou B est vrai
 
 Pour prouver $$A\lor B$$ il faut soit prouver A soit prouver B.
 
-Il y a donc deux règles d'introduction :
+### Règles d'introductions
 
 $$\frac{\Gamma \vdash A}{\Gamma \vdash A \lor B} \lor _{i, 1}$$
 
 $$\frac{\Gamma \vdash B}{\Gamma \vdash A \lor B} \lor _{i, 2}$$
 
-### Règle d'introduction
+### Règle d'élimination
 
 $$\frac{\Gamma \vdash A \lor B \ \ \ \ \Gamma , A \vdash C \ \ \ \ \Gamma , B \vdash C}{\Gamma \vdash C}\lor _e$$
 
@@ -66,18 +84,21 @@ $$A\leftrightarrow B$$ est une contraction de $$(A\implies B) \lor (B\implies A)
 
 ### Jugements
 
+Un jugement n'est pas un séquent mais une méta-affirmation sur un séquent.
+
 $$\Gamma \models A$$ : Le séquent $$\Gamma \vdash A$$ est valide.  
 
-$$\Gamma \vdash _j$$
+$$\Gamma \vdash _j A$$ : Le séquent $$\Gamma \vdash A$$ est prouvable en logique intuitionniste
 
-$$\Gamma \equiv$$
-
-[...]
-
+$$\Gamma \equiv_j B$$ : Le séquent $$\vdash A \leftrightarrow B$$ est prouvable en logique intuitionniste
 
 ### Equivalence et réécriture
 
 On admet le méta-théorème de remplacement.
+
+Si $$A\equiv_j B$$ alors $$\Gamma\vdash A\equiv_j\Gamma\vdash B$$
+
+*On peux remplacer tout les A par des B*
 
 ## Séquents valides non prouvables
 

@@ -30,9 +30,9 @@ Contradiction et négation.
 [diapo prof](https://moodle1.u-bordeaux.fr/pluginfile.php/815764/mod_resource/content/1/cours4.pdf)
 
 ## [Cours 5](./cours_5.md)
-NULL  
+Limite logique minimale et coupures.  
 [diapo prof](https://moodle1.u-bordeaux.fr/pluginfile.php/843754/mod_resource/content/1/cours5.pdf)
 
 ## [Cours 6](./cours_6.md)
-Conjonction et Disjonction.  
-[diapo prof](#)
+Conjonction,  Disjonction et équivalence.  
+[diapo prof](https://moodle1.u-bordeaux.fr/pluginfile.php/847390/mod_resource/content/2/cours6.pdf)
