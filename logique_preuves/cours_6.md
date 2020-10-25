@@ -28,10 +28,12 @@ $$\frac{\Gamma\vdash A\land B\qquad\Gamma, A, B\vdash C}{\Gamma\vdash C}\land_e$
 
 ### Règles dérivées sur la conjonction
 
-- Commutativité  
+- Commutativité
+
 $$\frac{\Gamma \vdash A \land B}{\Gamma \vdash B \land A} \land ,comm$$
 
-- Elimination alternative  
+- Elimination alternative
+
 $$\frac{\Gamma , A, B \vdash C}{\Gamma , A\land B \vdash C} \land '_e$$
 
 
@@ -71,7 +73,7 @@ Une erreur très fréquente est de faire, si le but est une disjonction, **trop 
 
 *Il faut faire un choix entre la branche de droite ou de gauche mais il est possible que les deux soient impossibles à prouver.*
 
-## Equivalence ($$leftrightarrow$$)
+## Equivalence ($$\leftrightarrow$$)
 
 $$A\leftrightarrow B$$ est une contraction de $$(A\implies B) \lor (B\implies A)$$
 
@@ -104,7 +106,7 @@ Si $$A\equiv_j B$$ alors $$\Gamma\vdash A\equiv_j\Gamma\vdash B$$
 
 - Peirce $$\vdash ((P\implies Q)\implies P)\implies P$$
 - double négation $$\vdash \neg\neg P \implies P$$
-- $$\vdash P \lor \neg P$$
+- $$\vdash P \lor \neg P$$.
 
 [Index](./index.md)  
 [Cours précédant](./cours_5.md)

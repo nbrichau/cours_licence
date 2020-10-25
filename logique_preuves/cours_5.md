@@ -42,7 +42,8 @@ Dans un arbre de preuve, on appelle coupure la configuration de deux nœuds suiv
 
 $$\frac{\Gamma\vdash A,\Delta\qquad\Gamma',A\vdash\Delta'}{\Gamma,\Gamma'\vdash\Delta,\Delta'}$$
 
-Ou en plus simple :  
+Ou en plus simple :
+
 $$\frac{\Gamma\vdash A\qquad\Pi,A\vdash B}{\Gamma,\Pi\vdash B}$$
 
 ## Sous-formules
@@ -51,10 +52,10 @@ Une formule est un arbre. Une sous-formule est sous-arbre.
 
 Exemple : $$(P\implies Q)\implies R\implies S$$  
 Les sous-formules sont :
-- $$P, Q, R, S$$
-- $$P\implies Q$$
-- $$R\implies S$$
-- $$(P\implies Q)\implies R\implies S$$
+- $$P, Q, R, S$$.
+- $$P\implies Q$$.
+- $$R\implies S$$.
+- $$(P\implies Q)\implies R\implies S$$.
 
 Attention : $$(P\implies Q)\implies R$$ n'est pas une sous-formule de $$(P\implies Q)\implies R\implies S$$.
 
