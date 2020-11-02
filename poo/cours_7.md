@@ -1,5 +1,6 @@
 [Index](./index.md)  
-[Cours précédant](./cours_6.md)
+[Cours précédant](./cours_6.md)  
+[Cours suivant](./cours_8.md)
 
 # Interface avec méthode par défaut
 
@@ -65,4 +66,5 @@ RuntimeException : exception qui n'est pas obligé d'être rattrapé.
 
 
 [Index](./index.md)  
-[Cours précédant](./cours_6.md)
+[Cours précédant](./cours_6.md)  
+[Cours suivant](./cours_8.md)

@@ -106,7 +106,7 @@ Si $$A\equiv_j B$$ alors $$\Gamma\vdash A\equiv_j\Gamma\vdash B$$
 
 - Peirce $$\vdash ((P\implies Q)\implies P)\implies P$$
 - double négation $$\vdash \neg\neg P \implies P$$
-- $$\vdash P \lor \neg P$$.
+- $$\vdash P \lor \neg P$$  
 
 [Index](./index.md)  
 [Cours précédant](./cours_5.md)
