@@ -39,10 +39,10 @@ Une variable *temps*, initialisée à 0, sert à définir pour chaque sommet u d
 
 Le parcours se fait dans l'ordre lexicographique.  
 
-|sommet|S|A|B|C|D|
-|--------|-|-|-|-|-|
-|d(v)    |1 |2|3|4|6|
-|f(v)    |10|9|8|5|7|
+|sommet|S |A|B|C|D|
+|------|--|-|-|-|-|
+|d(v)  |1 |2|3|4|6|
+|f(v)  |10|9|8|5|7|
 
 
 ### Type des arcs de l'arborescence

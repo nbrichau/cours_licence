@@ -1,4 +1,6 @@
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML"></script>  
+<link rel="stylesheet" type="text/css" href="https://tikzjax.com/v1/fonts.css">  
+<script src="https://tikzjax.com/v1/tikzjax.js"></script>
 
 [Index](./index.md)  
 [Cours précédant](./cours_1.md)  
@@ -7,7 +9,6 @@
 ## Notations asymptotiques
 
 #### Notation $$O$$ ("grand o")
-
 $$O(g(n)) = \{f() \mid \exists c \in \mathbb{R^+}, \exists n_0 \in \mathbb{N}, \forall n \geq n_0, 0 \leq f(n) \leq c\times g(n)\}$$
 
 *le "=" n'est pas symétrique*
@@ -56,22 +57,32 @@ On prend le sommet source, on regarde tout ses enfants directs, puis tout les en
 
 Complexité : $$O(n+m)$$
 
-#### Objectif algorithme
 L'objectif est de calculer $$d(v)$$ qui contient en sortie $$d(s,v)$$ : La distance dans le graphe $$G$$ entre $$s$$ et tout sommet $$v$$ du graphe
 
-...
+### Exemple
 
+<script type="text/tikz">
+\begin{tikzpicture}
+	\tikzstyle{sommet}=[circle, draw=black!50,  thick]
+	\node[sommet] (A) at (0,2) {$A$};
+	\node[sommet] (B) at (2,2) {$B$}
+		edge node {} (A);
+	\node[sommet] (C) at (2,0) {$C$}
+		edge node {} (A)
+		edge node {} (B);
+	\node[sommet] (D) at (0,0) {$D$}
+		edge node {} (A)
+		edge node {} (C);
+	\node[sommet] (E) at (4,1) {$D$}
+		edge node {} (B)
+		edge node {} (C);
+\end{tikzpicture}
+</script>
 
-
-
-
-
-
-
-
-
-
-
+|  Sommet v   | A | B | C | D | E |
+|:-----------:|:-:|:-:|:-:|:-:|:-:|
+|Distance d(v)| 0 | 1 | 1 | 1 | 2 |
+|    Père     | - | A | A | A | B |
 
 [Index](./index.md)  
 [Cours précédant](./cours_1.md)  

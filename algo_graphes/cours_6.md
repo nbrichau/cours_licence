@@ -5,36 +5,36 @@
 [Index](./index.md)  
 [Cours précédant](./cours_5.md)
 
-# Algorithme de Ford (Bellman-Ford)
+## Algorithme de Ford (Bellman-Ford)
 
-## Objectif
+### Objectif
 Il permet de calculer les plus cours chemins entre un sommet s et tous les autres. Même si le graphe possède un ou des circuits et/ou des arcs de poids négatif.
 
 Si un circuit négatif alors renvoi Faux sinon Vrai.
 
-## Principe
+### Principe
 A chaque itération, on effectue un relâchement sur chaque arc uv pour voir si il est opportun d'utiliser cet arc pour avoir un plus court chemin entre s et v.
 
-## Complexité
+### Complexité
 
 O(n*m)
 
-# Plus court chemin entre chaque paire de sommets
+## Plus court chemin entre toutes paire de sommets
 Utilisation de Dijkstra n fois. On a ainsi un algorithme de complexité O(n²*log(n) + n\*m).
 
-## Calcul matriciel
+### Calcul matriciel
 On considère une matrice W[i, j] avec
 - O si i=j
 - $$\omega (i,j)$$ si ij $$\in$$ E(g)
 - $$\infty$$ sinon
 
-# Algorithme de Floyd (Floyd-Warshall)
+### Algorithme de Floyd (Floyd-Warshall)
 
 L'algorithme de Floyd s'appuie sur le fait que l'on ne va, à chaque calcul de la nouvelle matrice, considérer que les k premiers sommets comme sommets intermédiaires potentiels.  
 Comme il y a n boucles, on aura bien à la fin considéré tous les sommets comme sommet intermédiaires potentiel.
 
-# Algorithme de Warshall
-
+## Algorithme de Warshall
+L'algorithme de Floyd peut être adapté pour calculer la matrice d'adjacence de la fermeture transitive d'un graphe G orienté, c'est à dire du graphe G' tel que $$ij \in E(G')$$ alors il existe un chemin de i à j dans G.
 
 [Index](./index.md)  
 [Cours précédant](./cours_5.md)

@@ -32,8 +32,8 @@ fin si
 On peut utiliser l'algorithme de Dijkstra à condition que la fonction $$\omega$$ de pondération des arcs soit positive.
 
 ## Algorithme de Bellman
-
-[...]
+On peut utiliser l'algorithme de Bellman à condition que le graphe G soit sans circuit.  
+*On peut obtenir un tri topologique sur les sommets de G.*
 
 [Index](./index.md)  
 [Cours précédant](./cours_4.md)  
