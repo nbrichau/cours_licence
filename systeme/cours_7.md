@@ -1,3 +1,7 @@
+[Index](./index.md)  
+[Cours précédant](./cours_6.md)  
+[Cours suivant](./cours_8.md)
+
 # Signaux
 
 Un signal sert à notifier des événements, provenant de l'os, d'une application ou du cpu.
@@ -24,3 +28,7 @@ int main(int argc, char const *argv[]) {
 	return 0;
 }
 ```
+
+[Index](./index.md)  
+[Cours précédant](./cours_6.md)  
+[Cours suivant](./cours_8.md)

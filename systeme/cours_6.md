@@ -1,5 +1,6 @@
 [Index](./index.md)  
-[Cours précédant](./cours_5.md)
+[Cours précédant](./cours_5.md)  
+[Cours suivant](./cours_7.md)
 
 ## Pipes (tubes)
 
@@ -19,4 +20,5 @@ fildes[1] : écrire
 
 
 [Index](./index.md)  
-[Cours précédant](./cours_5.md)
+[Cours précédant](./cours_5.md)  
+[Cours suivant](./cours_7.md)

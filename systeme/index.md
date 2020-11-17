@@ -30,4 +30,12 @@ Manipulation de processus
 
 ## [Cours 6](./cours_6.md)
 Pipes  
-[diapo prof](https://raymond-namyst.emi.u-bordeaux.fr/ens/ps/lectures/PS-Course-3.pdf)
+[diapo prof](https://raymond-namyst.emi.u-bordeaux.fr/ens/ps/lectures/PS-Course-4.pdf)
+
+## [Cours 7](./cours_7.md)
+Signaux  
+[diapo prof](https://raymond-namyst.emi.u-bordeaux.fr/ens/ps/lectures/PS-Course-5.pdf)
+
+## [Cours 8](./cours_8.md)
+Signaux  
+[diapo prof](https://raymond-namyst.emi.u-bordeaux.fr/ens/ps/lectures/PS-Course-5.pdf)
