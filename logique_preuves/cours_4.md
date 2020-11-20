@@ -42,15 +42,19 @@ Ainsi, pas de nouvelles règles de raisonnement et les méta-théorèmes restent
 ### Règles dérivées
 
 ##### Expansion de la macro $$\sim$$
+
 $$\frac{\Gamma \vdash A \implies \bot}{\Gamma \vdash \sim A}\sim _exp$$
 
 ##### Introduction de la négation
+
 $$\frac{\Gamma , A \vdash \bot}{\Gamma \vdash \sim A}\sim _i$$
 
 ##### Contraposée
+
 $$\frac{\Gamma \vdash A \implies B}{\Gamma \vdash \sim B \implies \sim A}contraposée$$
 
 ##### Preuve par l'absurde
+
 $$\frac{\Gamma \vdash A \ \ \ \ \Gamma \vdash \sim A}{\Gamma \vdash B}abs$$
 
 [Index](./index.md)  

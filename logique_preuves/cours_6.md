@@ -1,7 +1,8 @@
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML"></script>
 
 [Index](./index.md)  
-[Cours précédant](./cours_5.md)
+[Cours précédant](./cours_5.md)  
+[Cours suivant](./cours_7.md)
 
 
 # Logique propositionnelle
@@ -60,7 +61,7 @@ $$\frac{\Gamma \vdash B}{\Gamma \vdash A \lor B} \lor _{i, 2}$$
 
 $$\frac{\Gamma \vdash A \lor B \ \ \ \ \Gamma , A \vdash C \ \ \ \ \Gamma , B \vdash C}{\Gamma \vdash C}\lor _e$$
 
-## Logique propositionnelle institutionnelle
+## Logique propositionnelle intuitionniste
 
 - règle d'hypothèses, élimination de la contradiction
 - règles sur l'implication
@@ -106,7 +107,8 @@ Si $$A\equiv_j B$$ alors $$\Gamma\vdash A\equiv_j\Gamma\vdash B$$
 
 - Peirce $$\vdash ((P\implies Q)\implies P)\implies P$$
 - double négation $$\vdash \neg\neg P \implies P$$
-- $$\vdash P \lor \neg P$$  
+-  $$\vdash P \lor \neg P$$  
 
 [Index](./index.md)  
 [Cours précédant](./cours_5.md)
+[Cours suivant](./cours_7.md)
