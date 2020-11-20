@@ -42,5 +42,5 @@ Tiers exclus et logique classique.
 [diapo prof](https://moodle1.u-bordeaux.fr/pluginfile.php/865066/mod_resource/content/1/cours7annote.pdf)
 
 ## [Cours 8](./cours_8.md)
-Introduction au calcul des prédicats.  
+Logique du premier ordre, variables, formules et prédicats.  
 [diapo prof](https://moodle1.u-bordeaux.fr/pluginfile.php/901339/mod_resource/content/1/cours8.pdf)

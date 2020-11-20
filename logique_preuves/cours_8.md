@@ -68,7 +68,7 @@ $$\frac{\Gamma\vdash\exists x:X,P\ \ \ \Gamma;y:X;P[x/y]\vdash A}{\Gamma\vdash A
 
 ### Introduction
 
-$\frac{}{\Gamma\vdash t=t}=_i$$$
+$$\frac{}{\Gamma\vdash t=t}=_i$$
 
 ### Élimination
 
