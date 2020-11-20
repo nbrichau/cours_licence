@@ -12,7 +12,7 @@ Sens d'une preuve : en supposant $$H_1, ..., H_n$$ on arrive à prouver $$A$$.
 
 ### Format général d'une règle de raisonnement
 
-$$\frac{\Gamma \vdash A \implies B ;\ \Gamma \vdash A}{\Gamma \vdash B} mp$$
+$$\frac{\Gamma \vdash A \to B ;\ \Gamma \vdash A}{\Gamma \vdash B} mp$$
 
 - sous la barre : le séquent que l'on cherche à prouver
 - sur la barre : plusieurs séquents
@@ -28,23 +28,23 @@ Un preuve du séquent est composée de l'invocation d'une règle de raisonnement
 
 ##### Formules :
 - chaque variable $$v \in V$$ constitue une formule
-- pour toutes formules $$A$$ et $$B$$, $$A\implies B$$ constitue une formule
+- pour toutes formules $$A$$ et $$B$$, $$A\to B$$ constitue une formule
 
 *pas de connecteurs $$\neg, \land, \lor$$.*
 
 ##### Exemples de formules :
-$$P\implies Q\implies R$$  
-$$(P\implies Q)\implies (Q\implies R)\implies (P\implies R)$$  
-$$P\implies (P\implies Q)\implies Q$$  
-$$((P\implies Q)\implies P)\implies P$$
+$$P\to Q\to R$$  
+$$(P\to Q)\to (Q\to R)\to (P\to R)$$  
+$$P\to (P\to Q)\to Q$$  
+$$((P\to Q)\to P)\to P$$
 
 ##### Exemples de séquents :
-$$\vdash P \implies P$$  
-$$P, P\implies Q \vdash Q$$  
-$$Q, P\implies Q\implies R \vdash P\implies R$$  
-$$P, Q, R, P\implies Q\implies R \implies S \vdash S$$  
-$$\vdash ((P\implies Q)\implies P)\implies P$$  
-$$P\implies Q, Q\implies R \vdash P\implies R$$  
+$$\vdash P \to P$$  
+$$P, P\to Q \vdash Q$$  
+$$Q, P\to Q\to R \vdash P\to R$$  
+$$P, Q, R, P\to Q\to R \to S \vdash S$$  
+$$\vdash ((P\to Q)\to P)\to P$$  
+$$P\to Q, Q\to R \vdash P\to R$$  
 
 ### Règle d'hypothèse
 
@@ -53,31 +53,31 @@ Si la conclusion fait partie des hypothèses, alors on peut conclure en invoquan
 $$\frac{}{\Gamma \vdash A}hyp(A\in \Gamma)$$
 
 ### Règle du *modus ponens* (règle d'élimination de l'implication)
-Si, avec un même jeu d’hypothèses, on peut prouver à la fois $$A\implies B$$ et $$A$$, alors avec ce même jeu d’hypothèses on peut prouver $$B$$ en invoquant le *modus ponens*.
+Si, avec un même jeu d’hypothèses, on peut prouver à la fois $$A\to B$$ et $$A$$, alors avec ce même jeu d’hypothèses on peut prouver $$B$$ en invoquant le *modus ponens*.
 
-$$\frac{\Gamma \vdash A\implies B ;\ \Gamma \vdash A}{\Gamma \vdash B}mp$$
+$$\frac{\Gamma \vdash A\to B ;\ \Gamma \vdash A}{\Gamma \vdash B}mp$$
 
 ### Règle d'introduction de l'implication (règle d'abstraction)
 
-Si, en ajoutant $$A$$ à un jeu d’hypothèses, on peut prouver $$B$$, alors on peut, en invoquant la règle d’introduction de l’implication, prouver $$A\implies B$$ sous le jeu d’hypothèses original.
+Si, en ajoutant $$A$$ à un jeu d’hypothèses, on peut prouver $$B$$, alors on peut, en invoquant la règle d’introduction de l’implication, prouver $$A\to B$$ sous le jeu d’hypothèses original.
 
-$$\frac{\Gamma , A \vdash B}{\Gamma \vdash A \implies B}\implies i$$
+$$\frac{\Gamma , A \vdash B}{\Gamma \vdash A \to B}\to i$$
 
-### Preuve en arbre de $$P\implies Q, Q\implies R \vdash P\implies R$$
+### Preuve en arbre de $$P\to Q, Q\to R \vdash P\to R$$
 
-Dans cette preuve, $$\Gamma = \{P\implies Q, Q\implies R\}$$.
+Dans cette preuve, $$\Gamma = \{P\to Q, Q\to R\}$$.
 
-$$\frac{\frac{}{\Gamma, P\vdash Q\implies R}hyp\ \ \frac{\frac{}{\Gamma, P\vdash P\implies Q}hyp\ \ \frac{}{\Gamma , P\vdash P}hyp}{\Gamma, P\vdash Q}mp}{\frac{\Gamma, P\vdash R}{\Gamma \vdash P\implies R}\implies i}mp$$
+$$\frac{\frac{}{\Gamma, P\vdash Q\to R}hyp\ \ \frac{\frac{}{\Gamma, P\vdash P\to Q}hyp\ \ \frac{}{\Gamma , P\vdash P}hyp}{\Gamma, P\vdash Q}mp}{\frac{\Gamma, P\vdash R}{\Gamma \vdash P\to R}\to i}mp$$
 
-### Preuve linéaire de $$P\implies Q, Q\implies R \vdash P\implies R$$
+### Preuve linéaire de $$P\to Q, Q\to R \vdash P\to R$$
 
-1) Supposons $$P\implies Q$$  
-2) Supposons $$Q\implies R$$  
+1) Supposons $$P\to Q$$  
+2) Supposons $$Q\to R$$  
 3) { Supposons $$P$$  
 4) &nbsp;&nbsp;$$Q$$ [mp, 1, 3]  
 5) &nbsp;&nbsp;$$R$$ [mp, 2, 4]  
 6) }  
-7) $$P\implies R$$ [$$\implies i$$, 3, 5]  
+7) $$P\to R$$ [$$\to i$$, 3, 5]  
 
 ### Cohérence de la logique minimale
 

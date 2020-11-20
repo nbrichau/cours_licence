@@ -76,7 +76,7 @@ Une erreur très fréquente est de faire, si le but est une disjonction, **trop 
 
 ## Equivalence ($$\leftrightarrow$$)
 
-$$A\leftrightarrow B$$ est une contraction de $$(A\implies B) \lor (B\implies A)$$
+$$A\leftrightarrow B$$ est une contraction de $$(A\to B) \lor (B\to A)$$
 
 |$$A$$|$$B$$|$$A\leftrightarrow B$$|
 |-|-|-|
@@ -105,8 +105,8 @@ Si $$A\equiv_j B$$ alors $$\Gamma\vdash A\equiv_j\Gamma\vdash B$$
 
 ## Séquents valides non prouvables
 
-- Peirce $$\vdash ((P\implies Q)\implies P)\implies P$$
-- double négation $$\vdash \neg\neg P \implies P$$
+- Peirce $$\vdash ((P\to Q)\to P)\to P$$
+- double négation $$\vdash \neg\neg P \to P$$
 -  $$\vdash P \lor \neg P$$  
 
 [Index](./index.md)  

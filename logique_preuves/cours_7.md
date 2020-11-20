@@ -23,7 +23,7 @@ $$\frac{\frac{}{\neg\neg P\vdash P\lor\neg P}exm_i\ \ \ \frac{}{\neg\neg P, P\vd
 
 ### Formule de Peirce
 
-Avec $F = ((P\implies Q)\implies P)\implies P$$
+Avec $F = ((P\to Q)\to P)\to P$$
 
 $$\frac{\frac{}{\vdash F\lor\neg F}exm_i\ \ \ \frac{}{F\vdash F}hyp\ \ \ \frac{\frac{}{\neg F\vdash\neg F}hyp\ \ \ \frac{prouvé\ dans\ ex\ feuille\ 3}{\neg F\vdash\neg\neg F}*}{\neg F\vdash F}abs}{\vdash F}\lor_e$$
 

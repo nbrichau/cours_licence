@@ -15,7 +15,7 @@ C'est une proposition $$H$$ que l'on admet vraie, et qui peut être utilisée da
 
 ### Hypothèse :
 C'est une proposition $$H$$ que l'on admet vraie seulement dans une partie d'une preuve.  
-Si dans cette portée on montre la proposition $$B$$, on obtient alors une preuve de $$H\implies B$$ et non une preuve de $$B$$.
+Si dans cette portée on montre la proposition $$B$$, on obtient alors une preuve de $$H\to B$$ et non une preuve de $$B$$.
 
 #### Logique minimale
 Formules atomiques et implication comme seul connecteur:  
