@@ -107,7 +107,7 @@ Si $$A\equiv_j B$$ alors $$\Gamma\vdash A\equiv_j\Gamma\vdash B$$
 
 - Peirce $$\vdash ((P\to Q)\to P)\to P$$
 - double négation $$\vdash \neg\neg P \to P$$
-- <span style="color=white;">.</span>$$\vdash P \lor \neg P$$
+- tiers exclus $$\vdash P \lor \neg P$$
 
 [Index](./index.md)  
 [Cours précédant](./cours_5.md)  

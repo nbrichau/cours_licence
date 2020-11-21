@@ -3,7 +3,8 @@
 <script src="https://tikzjax.com/v1/tikzjax.js"></script>
 
 [Index](./index.md)  
-[Cours précédant](./cours_5.md)
+[Cours précédant](./cours_5.md)  
+[Cours suivant](./cours_8.md)
 
 ## Algorithme de Ford (Bellman-Ford)
 
@@ -37,4 +38,5 @@ Comme il y a n boucles, on aura bien à la fin considéré tous les sommets comm
 L'algorithme de Floyd peut être adapté pour calculer la matrice d'adjacence de la fermeture transitive d'un graphe G orienté, c'est à dire du graphe G' tel que $$ij \in E(G')$$ alors il existe un chemin de i à j dans G.
 
 [Index](./index.md)  
-[Cours précédant](./cours_5.md)
+[Cours précédant](./cours_5.md)  
+[Cours suivant](./cours_8.md)
