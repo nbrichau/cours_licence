@@ -45,5 +45,5 @@ Réseaux, flots et coupes
 [diapo prof](https://dept-info.labri.fr/~baudon/Licence/Algo2/Cours/Cours/AG8.pdf)
 
 ## [Cours 9](./cours_9.md)
-
+Couplage, sommet-connectivité  
 [diapo prof](https://dept-info.labri.fr/~baudon/Licence/Algo2/Cours/Cours/AG9.pdf)

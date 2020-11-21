@@ -24,7 +24,7 @@ La valeur du flot val(f) sera égale à $$\sum_{e=sv\in E(G)}f(e)$$
 
 L'objectif est de trouver pour un réseau son flot de valeur maximum.
 
-Pour trouver le flot maximal, on peux utiliser l'algorithme de Ford-Fulkerson.
+Pour trouver le flot maximal, on peux utiliser l'algorithme de Ford-Fulkerson. Sa complexité dépend de la valeur du flot maximum $$f_{max}$$, elle est en $$O(m*f_{max})$$
 
 ## Coupe
 
