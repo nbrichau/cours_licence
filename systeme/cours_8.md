@@ -1,5 +1,6 @@
 [Index](./index.md)  
-[Cours précédant](./cours_7.md)
+[Cours précédant](./cours_7.md)  
+[Cours suivant](./cours_9.md)
 
 # Signaux
 
@@ -72,4 +73,5 @@ restaure les registres de `my_buff` puis retourne à l'instruction `setjmp()` et
 La valeur `val` de `longjmp()` sera le retour de `setjmp()` et doit être différent de 0.
 
 [Index](./index.md)  
-[Cours précédant](./cours_7.md)
+[Cours précédant](./cours_7.md)  
+[Cours suivant](./cours_9.md)

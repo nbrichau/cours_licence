@@ -39,3 +39,7 @@ Signaux
 ## [Cours 8](./cours_8.md)
 Signaux  
 [diapo prof](https://raymond-namyst.emi.u-bordeaux.fr/ens/ps/lectures/PS-Course-5.pdf)
+
+## [Cours 9](./cours_9.md)
+Threads  
+[diapo prof](https://raymond-namyst.emi.u-bordeaux.fr/ens/ps/lectures/PS-Course-5.pdf)
