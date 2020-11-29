@@ -1,7 +1,8 @@
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML"></script>
 
 [Index](./index.md)  
-[Cours précédant](./cours_7.md)
+[Cours précédant](./cours_7.md)  
+[Cours suivant](./cours_9.md)
 
 # Limite de la logique propositionnelle
 
@@ -40,39 +41,6 @@ Une formule avec seulement des variable liées est une **formule close**.
 
 Il est possible de renommer les variables ($$\alpha-conversion$$) d'un quantificateur et toutes les variables qu'elle lie seulement si ça ne change pas les autres liaisons.
 
-# Quantificateur universel $$\forall$$
-
-### Introduction
-
-$$\frac{\Gamma,x: X\vdash P}{\Gamma\vdash\forall x: X,P}\forall_i$$
-
-### Élimination
-
-$$\frac{\Gamma\vdash\forall x:X,P\ \ \ \Gamma\vdash t:X}{\Gamma\vdash P[x/t]}\forall_e;t$$
-
-P[x/t] : P dont tout les x libre sont remplacés par t.
-
-# Quantificateur existentiel $$\exists$$
-
-### Introduction
-
-$$\frac{\Gamma\vdash t:X\ \ \ \Gamma\vdash P[x/t]}{\Gamma\vdash\exists x:X,P}\exists_i;t$$
-
-### Élimination
-
-$$\frac{\Gamma\vdash\exists x:X,P\ \ \ \Gamma;y:X;P[x/y]\vdash A}{\Gamma\vdash A}\exists_e$$
-
-*La variable y ne doit pas apparaître comme variable libre dans $$\Gamma$$.*
-
-# Égalité
-
-### Introduction
-
-$$\frac{}{\Gamma\vdash t=t}=_i$$
-
-### Élimination
-
-$$\frac{\Gamma\vdash t=t'\ \ \ \Gamma\vdash P[x/t]}{\Gamma\vdash P[x/t']}=_e$$
-
 [Index](./index.md)  
-[Cours précédant](./cours_7.md)
+[Cours précédant](./cours_7.md)  
+[Cours suivant](./cours_9.md)

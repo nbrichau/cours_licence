@@ -44,3 +44,7 @@ Tiers exclus et logique classique.
 ## [Cours 8](./cours_8.md)
 Logique du premier ordre, variables, formules et prédicats.  
 [diapo prof](https://moodle1.u-bordeaux.fr/pluginfile.php/901339/mod_resource/content/1/cours8.pdf)
+
+## [Cours 9](./cours_9.md)
+Quantificateur universel et existentiel, égalité  
+[diapo prof](https://moodle1.u-bordeaux.fr/pluginfile.php/914446/mod_resource/content/1/cours9_annote.pdf)
