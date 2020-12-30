@@ -1,5 +1,5 @@
 [Index](./index.md)  
-[Cours précédant](./cours_1.md)
+[Cours précédant](./cours_1.md)  
 [Cours suivant](./cours_3.md)
 
 ## Classes d'objets
@@ -120,5 +120,5 @@ Il existe déjà des classes de "base" dans le Java, comme String par exemple.
 Elles sont données dans le JDK
 
 [Index](./index.md)  
-[Cours précédant](./cours_1.md)
+[Cours précédant](./cours_1.md)  
 [Cours suivant](./cours_3.md)

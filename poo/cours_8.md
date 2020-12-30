@@ -72,12 +72,12 @@ keySet()
 values()
 ```
 
-# hash table
+# Hash Table
 
 C'est un ensemble de couple key-value  
 Ça transforme la table (K key, V Value) en (int key, V value) ça permet un accès direct à une valeur grace à get(key.hashcode) au lieu de tester tout les clef une par une.
 
-### hashcode
+### Hashcode
 
 fonction qui prend un objet de peux importe quelle taille et retourne un entier.
 

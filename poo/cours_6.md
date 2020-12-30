@@ -7,7 +7,7 @@ classes :
 - le code des traitements
 - initialisation des objets
 
-## Interfaces (java <1.8)
+## Interfaces (java < 8)
 
 Une interface permet de définir la vue utilisateur d'un objet.
 

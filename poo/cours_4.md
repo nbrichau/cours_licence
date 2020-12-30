@@ -5,12 +5,13 @@
 ## Héritage
 
 Véhicule :
-	- speedMax
-	- passengers
+- speedMax
+- passengers
+
 Plane :
-	- speedMax
-	- passengers
-	- altitudeMax
+- speedMax
+- passengers
+- altitudeMax
 
 Un véhicule et un avion possède des attributs similaire
 
