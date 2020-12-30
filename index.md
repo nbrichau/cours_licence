@@ -1,11 +1,17 @@
 # Index
 
-## [Algorithme des graphes](./algo_graphes/index.md)
+## Semestre 6
 
-## [Logique et Preuves](./logique_preuves/index.md)
+---
 
-## [Programmation Orientée Objet](./poo/index.md)
+## Semestre 5
 
-## [Programmation Système](./systeme/index.md)
+### [Algorithme des graphes](./S5/algo_graphes/index.md)
 
-## [PCT - Sensibilisation à l’écologie et à l’impact du numérique](./pct_ecologie/index.md)
+### [Logique et Preuves](./S5/logique_preuves/index.md)
+
+### [Programmation Orientée Objet](./S5/poo/index.md)
+
+### [Programmation Système](./S5/systeme/index.md)
+
+### [PCT - Sensibilisation à l’écologie et à l’impact du numérique](./S5/pct_ecologie/index.md)
