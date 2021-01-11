@@ -1,7 +1,5 @@
 # Programmation Système
 
-#### [Retour Index](../index.md)
-
 ---
 
 ### [Site Web du Cours](https://gforgeron.gitlab.io/progsys/cours/)

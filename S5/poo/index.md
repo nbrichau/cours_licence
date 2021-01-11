@@ -1,7 +1,5 @@
 # Programmation Orientée Objet
 
-#### [Retour Index](../index.md)
-
 ---
 
 ### [Site Web du Cours](http://www.reveillere.fr/L3POO/)

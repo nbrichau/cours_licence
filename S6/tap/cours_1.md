@@ -7,16 +7,16 @@
 
 ## Tchisla
 
-Le but est de trouver une expression arithmétique de valeur n, c $$\in$$ {1..9} uniquement avec c, -, +, *, /, ^, $$\sqrt$$, !, (, ).
+Le but est de trouver une expression arithmétique de valeur n, c $$\in$$ {1..9} uniquement avec c, -, +, *, /, ^, $$\sqrt{}$$, !, (, ).
 
 ex : n=2016, c=1 : $$2016=(1+1)^{11}-\sqrt{(1+1)^{11-1}}$$
 
 Le but est de minimiser le nombre de c : $$f_c(n)$$.
 
-|n         |1|2  |3    |4      |5         |6       |7         |8           |9     |10  |
-|----------|-|---|-----|-------|----------|--------|----------|------------|------|----|
-|$$f_c(n)$$|1|2  |3    |4      |4         |3       |4         |5           |4     |3   |
-|          |1|1+1|1+1+1|1+1+1+1|(1+1+1)!-1|(1+1+1)!|(1+1+1)!+1|(1+1+1)!+1+1|11-1-1|11-1|
+|n         |1  |2  |3    |4      |5         |6       |7         |8           |9     |10  |
+|----------|:-:|:-:|:---:|:-----:|:--------:|:------:|:--------:|:----------:|:----:|:--:|
+|$$f_c(n)$$|1  |2  |3    |4      |4         |3       |4         |5           |4     |3   |
+|          |1  |1+1|1+1+1|1+1+1+1|(1+1+1)!-1|(1+1+1)!|(1+1+1)!+1|(1+1+1)!+1+1|11-1-1|11-1|
 
 ## Formule close
 
@@ -32,7 +32,7 @@ S'il n'y a pas de formule close pour le calcul de $$f_c(n)$$, on peux rechercher
 
 Ex : Tchisla  
 Instance : deux entiers n $$\ge$$ 1 c $$\in$$ [1,9]  
-Question : Trouver une expression arithmétique utilisant uniquement +-*/^$$\sqrt$$!(), de valeur n et comportant le moins de fois c.
+Question : Trouver une expression arithmétique utilisant uniquement +-*/^$$\sqrt{}$$!(), de valeur n et comportant le moins de fois c.
 
 Malheureusement, les problèmes n'ont pas forcément d'algorithmes.  
 Ces problèmes sont dits **indécidables**.

@@ -1,7 +1,5 @@
 # Techniques Algorithmiques et Programmation
 
-#### [Retour Index](../index.md)
-
 ---
 
 ### [Site Web du Cours](https://dept-info.labri.fr/~gavoille/UE-TAP/)

@@ -1,7 +1,5 @@
 # Logique et Preuves
 
-#### [Retour Index](../index.md)
-
 ---
 
 ### [Site Web du Cours](https://www.labri.fr/perso/duchon/Enseignements/L-et-P/)  
