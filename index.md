@@ -1,5 +1,7 @@
 ## Semestre 6
 
+### [Projet de Développement Logiciel](./S6/projet_dev/index.md)
+
 ### [Techniques Algorithmiques et Programmation](./S6/tap/index.md)
 
 ---
