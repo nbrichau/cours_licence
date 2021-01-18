@@ -25,7 +25,7 @@ En codant les symbole par des chiffres :
 |:-----:|-|-|-|-|-|-|-|-|-|-|
 |codage |0|1|2|3|4|5|6|7|8|9|
 
-11+11+1+1 -> 001001010
+11+11+1+1 -> 001001010  
 11^11*1-1 -> 005003020
 
 Il est possible de balayer toutes les possibilités en voyant le codage comme un compteur.
