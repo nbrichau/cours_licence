@@ -1,5 +1,3 @@
-# Index
-
 ## Semestre 6
 
 ### [Techniques Algorithmiques et Programmation](./S6/tap/index.md)

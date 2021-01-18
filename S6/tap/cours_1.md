@@ -1,7 +1,7 @@
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML"></script>
 
 [Index](./index.md)  
-<!-- [Cours suivant](./cours_2.md) -->
+[Cours suivant](./cours_2.md)
 
 # Introduction
 
@@ -45,4 +45,4 @@ Les équations diophantiennes sont indécidables avec 11 variables.
 Une fonction qui dit si une autre fonction s'arrête ou boucle indéfiniment est indécidable (problème de la halte).
 
 [Index](./index.md)  
-<!-- [Cours suivant](./cours_2.md) -->
+[Cours suivant](./cours_2.md)

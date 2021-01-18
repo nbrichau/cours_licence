@@ -10,3 +10,6 @@
 
 ## [Cours 1](./cours_1.md)
 Introduction.  
+
+## [Cours 2](./cours_2.md)
+Complexité et notation asymptotique.  
