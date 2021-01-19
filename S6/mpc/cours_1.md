@@ -42,7 +42,7 @@ exemple : $$\{a, aa, bab\} \cup \{aa, bb\} = \{a, aa, bab, bb \}$$
 
 ### Produit (Concaténation) (.)
 
-$$L_1.L_2 = \{u_1.u_2 \setminus u_1 \in L_1, u_2 \in L_2\}$$
+\\(L_1.L_2 = \{u_1.u_2 \setminus u_1 \in L_1, u_2 \in L_2\}\\)
 
 exemple : {a, ab}.{c, ab} = {ac, aab, abc, abab}
 
@@ -70,7 +70,7 @@ A = {a, b}
 - Ensemble des mots de A qui commencent par la lettre a : $$a.(a+b)^*$$
 - Ensemble des mots de A qui finissent par la lettre a : $$(a+b)^*.a$$
 
-$$e^+ = e.e^*$$
+\\(e^+ = e.e^*\\)
 
 $$L(e^+)$$ : Le langage des mots qui sont concaténation d'au moins un mot du langage donné par e.
 
@@ -93,7 +93,7 @@ A={a, b},
 Q={1, 2, 3},  
 I={1},  
 F={2},  
-$$\delta$$={(1,a,2), (2,b,2), (2,b,3), (2,a,1), (3,b,1)}
+$$\delta$$={(1,a,2), (2,b,2), (2,b,3), (3,a,1), (3,b,1)}
 
 Il est possible de représenté l'automate sous forme de graphe orienté étiquetté. Q est l'ensemble des sommets. $$\delta$$ est la liste des arêtes.
 
@@ -103,7 +103,8 @@ Il est possible de représenté l'automate sous forme de graphe orienté étique
 	\node[sommet] (A) at (0,1) {1};
 	\node (I) at (-0.7,1) {}
 		edge node {} (A);
-	\node[sommet] (B) at (1,1) {2};
+	\node[sommet] (B) at (1,1) {2}
+		edge[out=45, in=135, min distance=10mm] node[above] {b} (B);
 	\node[sommet] (C) at (0.5,0) {3};
 	\node (F) at (1.7,1) {};
 	\draw (A) edge node[above] {a} (B);
