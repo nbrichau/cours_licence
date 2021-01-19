@@ -1,5 +1,7 @@
 ## Semestre 6
 
+### [Modèles de la Programmation et du Calcul](./S6/mpc/index.md)
+
 ### [Projet de Développement Logiciel](./S6/projet_dev/index.md)
 
 ### [Techniques Algorithmiques et Programmation](./S6/tap/index.md)
