@@ -1,5 +1,7 @@
 ## Semestre 6
 
+### [Compilation](./S6/compilation/index.md)
+
 ### [Modèles de la Programmation et du Calcul](./S6/mpc/index.md)
 
 ### [Projet de Développement Logiciel](./S6/projet_dev/index.md)
