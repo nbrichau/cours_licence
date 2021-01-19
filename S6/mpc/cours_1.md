@@ -36,7 +36,7 @@ On part des lettres d'un alphabet A donné et le mot vide $$\epsilon$$ puis on v
 
 ### Union (+)
 
-\(L_1 \cup L_2 = \{ u \setminus (u \in L_1\ ou\ u \in L_2) \}\)
+\\(L_1 \cup L_2 = \{ u \setminus (u \in L_1\ ou\ u \in L_2) \}\\)
 
 exemple : $$\{a, aa, bab\} \cup \{aa, bb\} = \{a, aa, bab, bb \}$$
 
