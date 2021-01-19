@@ -22,7 +22,7 @@ A* : Ensemble de tout les mots formés sur l'alphabet A.
 $$\emptyset$$  : Langage vide (langage qui ne contient aucun mots)  
 *$$\emptyset  \neq \{\epsilon\}$$*
 
-|u| : Longueur du mot u (nombre de lettres).
+\|u\| : Longueur du mot u (nombre de lettres).
 
 u.v : uv : Concaténation (coller les deux mots u et v)
 
@@ -36,7 +36,7 @@ On part des lettres d'un alphabet A donné et le mot vide $$\epsilon$$ puis on v
 
 ### Union (+)
 
-$$L_1 \cup L_2 = \{ u \setminus (u \in L_1\ ou\ u \in L_2) \}$$
+\(L_1 \cup L_2 = \{ u \setminus (u \in L_1\ ou\ u \in L_2) \}\)
 
 exemple : $$\{a, aa, bab\} \cup \{aa, bb\} = \{a, aa, bab, bb \}$$
 
@@ -84,7 +84,7 @@ $$L^* = \{\epsilon\} \cup L \cup L^2 \cup ... = \{\epsilon\} \cup L^+$$
 Un automate fini (AF) est un quintuplet  (A, Q, $$\delta$$, I, F).  
 A : L'Alphabet  
 Q : L'ensemble d'états  
-$$\delta$$ : L'ensemble des transitions, \delta \subseteq Q\times A\times Q$$  
+$$\delta$$ : L'ensemble des transitions, $$\delta \subseteq Q\times A\times Q$$  
 I : L'ensemble d'états initiaux, $$I \subseteq Q$$  
 F : L'ensemble d'états finaux, $$F \subseteq Q$$
 
