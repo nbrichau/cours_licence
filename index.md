@@ -2,6 +2,8 @@
 
 ### [Compilation](./S6/compilation/index.md)
 
+### [Informatique et Société](./S6/societe/index.md)
+
 ### [Modèles de la Programmation et du Calcul](./S6/mpc/index.md)
 
 ### [Projet de Développement Logiciel](./S6/projet_dev/index.md)
