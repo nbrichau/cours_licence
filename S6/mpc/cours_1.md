@@ -1,6 +1,7 @@
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML"></script>
-<link rel="stylesheet" type="text/css" href="https://tikzjax.com/v1/fonts.css">  
-<script src="https://tikzjax.com/v1/tikzjax.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/viz.js/2.1.2/viz.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/viz.js/2.1.2/full.render.js"></script>
+<script>var viz = new Viz();</script>
 
 [Index](./index.md)  
 
@@ -97,21 +98,22 @@ $$\delta$$={(1,a,2), (2,b,2), (2,b,3), (3,a,1), (3,b,1)}
 
 Il est possible de représenté l'automate sous forme de graphe orienté étiquetté. Q est l'ensemble des sommets. $$\delta$$ est la liste des arêtes.
 
-<script type="text/tikz">
-\begin{tikzpicture}[->]
-	\tikzstyle{sommet}=[circle, draw=black!50,  thick]
-	\node[sommet] (A) at (0,1) {1};
-	\node (I) at (-0.7,1) {}
-		edge node {} (A);
-	\node[sommet] (B) at (1,1) {2}
-		edge[out=45, in=135, min distance=10mm] node[above] {b} (B);
-	\node[sommet] (C) at (0.5,0) {3};
-	\node (F) at (1.7,1) {};
-	\draw (A) edge node[above] {a} (B);
-	\draw (B) edge node[right] {b} (C);
-	\draw (C) edge node[left] {a,b} (A);
-	\draw (B) edge (F);
-\end{tikzpicture}
+<div id="graphe"></div>
+<script>
+viz.renderSVGElement(` 
+	digraph Graphe {
+		i->1;
+		1->2[label="a"];
+		2:nw->2:ne[label="b"];
+		2->3[label="b"];
+		3->1[label="a,b"];
+		2->f[];
+		
+		f[style=invis];
+		i[style=invis];
+		{ rank=same; i 1 2 f }
+	}
+`).then(elem => document.getElementById("graphe").appendChild(elem)).catch(error=> console.log(error));
 </script>
 
 [Index](./index.md)  
