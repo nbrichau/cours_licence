@@ -25,13 +25,13 @@ Il n'y a pas de formule close pour P(n).
 
 La formule de Fibonacci semble s'approcher de P(n) mais n'est pas totalement ça.
 
-Il y a cependant une formule asymptotique. Un formule dont le quotient avec p(n) s'approche de zéro.
+Il y a cependant une formule asymptotique. Un formule dont le quotient avec p(n) s'approche de 1.
 
 $$p(n) \sim \frac{1}{4n\sqrt{3}}* exp(\pi \sqrt{2n/3}) \approx 2^{3.7\sqrt{n}}$$
 
 ## Approche exhaustive
 
-Une approche exhaustive en codant les partitions sous forme de bits n'est pas optimal car il y a trop de possibilité
+Une approche exhaustive en codant les partitions sous forme de bits n'est pas optimal car il y a trop de possibilités.
 
 ## Récurrence
 
@@ -49,7 +49,7 @@ Il y a deux type de partitions(diagrammes) :
 - type 1 : dernière partition est 1
 - type 2 : dernière partition n'est pas 1.
 
-Pour le type 1 : on peut enlever la dernière colonne pour se ramener à un diagramme plus petit. On enlève une partition et on diminue l'entier de 1.  
+Pour le type 1 : On peut enlever la dernière colonne pour se ramener à un diagramme plus petit. On enlève une partition et on diminue l'entier de 1.  
 Pour le type 2 : On peut enlever la ligne du bas pour se ramener à un diagramme plus petit. On diminue l'entier du nombre de partition.
 
 $$p(n,k) = p_1(n,k) + p_2(n,k) = p(n-1,k-1)+p(n-k, k)$$
@@ -74,7 +74,7 @@ int p_rec(int n) {
 
 ### Arbre des appels
 
-C'est un arbre dont les nœuds représentent les paramètres d'appels et les fils les différents appels. L'exécution de la fonction correspond à un parcours en profondeur de cet arbre, la racine représente les paramètres de 1er appel.
+C'est un arbre dont les nœuds représentent les paramètres d'appels et les fils les différents appels. L'exécution de la fonction correspond à un parcours en profondeur de cet arbre, la racine représente les paramètres du 1er appel.
 
 Arbre p_rec(6) :
 
@@ -96,7 +96,7 @@ Arbre p(6,3) :
 <div id="p63"></div>
 <script>
 viz.renderSVGElement(` 
-	ddigraph p_6_3 {
+	digraph p_6_3 {
 		node [shape=none];
 		graph [tooltip="p(6,3)"];
 		
