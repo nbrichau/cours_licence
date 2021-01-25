@@ -1,4 +1,5 @@
 [Index](./index.md)  
+[Cours suivant](./cours_2.md)
 
 # Traitement d'image
 
@@ -44,3 +45,4 @@ On cherche à aplanir l'histogramme.
 On étend l'histogramme puis on rassemble des niveau de gris dans la même valeur.
 
 [Index](./index.md)  
+[Cours suivant](./cours_2.md)
