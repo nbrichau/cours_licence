@@ -9,7 +9,10 @@
 ---
 
 ## [Cours 1](./cours_1.md)
-Introduction.  
+Introduction.
 
 ## [Cours 2](./cours_2.md)
-Complexité et notation asymptotique.  
+Complexité et notation asymptotique.
+
+## [Cours 3](./cours_3.md)
+Partition d'un entier.

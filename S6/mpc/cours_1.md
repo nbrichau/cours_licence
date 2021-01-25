@@ -96,21 +96,21 @@ I={1},
 F={2},  
 $$\delta$$={(1,a,2), (2,b,2), (2,b,3), (3,a,1), (3,b,1)}
 
-Il est possible de représenté l'automate sous forme de graphe orienté étiquetté. Q est l'ensemble des sommets. $$\delta$$ est la liste des arêtes.
+Il est possible de représenté l'automate sous forme de graphe orienté étiqueté. Q est l'ensemble des sommets. $$\delta$$ est la liste des arêtes.
 
 <div id="graphe"></div>
 <script>
 viz.renderSVGElement(` 
 	digraph Graphe {
-		i->1;
-		1->2[label="a"];
-		2:nw->2:ne[label="b"];
-		2->3[label="b"];
-		3->1[label="a,b"];
-		2->f[];
+		i -> 1;
+		1 -> 2 [label="a"];
+		2:nw -> 2:ne [label="b"];
+		2 -> 3 [label="b"];
+		3 -> 1 [label="a,b"];
+		2 -> f;
 		
-		f[style=invis];
-		i[style=invis];
+		f [style=invis];
+		i [style=invis];
 		{ rank=same; i 1 2 f }
 	}
 `).then(elem => document.getElementById("graphe").appendChild(elem)).catch(error=> console.log(error));

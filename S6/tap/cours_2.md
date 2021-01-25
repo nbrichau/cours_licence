@@ -1,7 +1,8 @@
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML"></script>
 
 [Index](./index.md)  
-[Cours précédant](./cours_1.md)
+[Cours précédant](./cours_1.md)  
+[Cours suivant](./cours_3.md)
 
 ## Tchisla 2
 comme tchisla mais on compte aussi les signes.
@@ -60,4 +61,5 @@ On dit que "f(n) est en grand O de g(n)" si $$\exists c>0, \forall n >= n_0, f(n
 "f(n) est en $$\Theta$$ de g(n)" si f(n) est en grand-O et Omega.
 
 [Index](./index.md)  
-[Cours précédant](./cours_1.md)
+[Cours précédant](./cours_1.md)  
+[Cours suivant](./cours_3.md)
