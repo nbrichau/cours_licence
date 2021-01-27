@@ -88,7 +88,7 @@ viz.renderSVGElement(`
 		2 -> f;
 		1 -> q [label="b"];
 		2 -> q [label="a"];
-		q:sw -> q:se [label="0,ba"];
+		q:sw -> q:se [label="b,a"];
 		
 		f [style=invis];
 		i [style=invis];
@@ -128,10 +128,10 @@ viz.renderSVGElement(`
 
 Cet automate n'est pas déterministe car il y a deux transitions étiquetés b qui sortent de 1.
 
-<div id="nondeterministe"></div>
+<div id="deterministe"></div>
 <script>
 viz.renderSVGElement(` 
-	digraph non_deterministe {
+	digraph deterministe {
 		i -> 1;
 		1 -> 2 [label="b"];
 		2 -> 3 [label="a"];
@@ -142,7 +142,7 @@ viz.renderSVGElement(`
 		i [style=invis];
 		{ rank=same; i 1 2 3 f }
 	}
-`).then(elem => document.getElementById("nondeterministe").appendChild(elem)).catch(error=> console.log(error));
+`).then(elem => document.getElementById("deterministe").appendChild(elem)).catch(error=> console.log(error));
 </script>
 
 Cet automate est déterministe.
@@ -150,11 +150,11 @@ Cet automate est déterministe.
 ## Complémentaire
 
 Soit $$C = (A, Q, I, F, \delta)$$ un automate complet et déterministe.  
-Soit $$D = (A, Q, I, Q\F, \delta)$$ (on rend les états finaux non-finaux et vice-versa).  
+Soit $$D = (A, Q, I, Q\setminus F, \delta)$$ (on rend les états finaux non-finaux et vice-versa).  
 Alors l'automate fini D reconnait le langage complémentaire de celui reconnu par C.  
 L(D) = A*\L(C)
 
-Le complémentaire (ou complément) d'un ensemble $$L\subseteq A\*$$ est l'ensemble A*\L.
+Le complémentaire (ou complément) d'un ensemble $$L\subseteq A*$$ est l'ensemble A*\L.
 
 [Index](./index.md)  
 [Cours précédent](./cours_1.md)
