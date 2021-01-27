@@ -4,6 +4,7 @@
 <script>var viz = new Viz();</script>
 
 [Index](./index.md)  
+[Cours suivant](./cours_2)
 
 # Mots et langage formel
 
@@ -117,3 +118,4 @@ viz.renderSVGElement(`
 </script>
 
 [Index](./index.md)  
+[Cours suivant](./cours_2)
