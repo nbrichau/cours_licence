@@ -1,7 +1,8 @@
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML"></script>
 
 [Index](./index.md)  
-[Cours précédant](./cours_1.md)
+[Cours précédant](./cours_1.md)  
+[Cours suivant](./cours_3.md)
 
 # Convolution
 
@@ -64,4 +65,5 @@ Un exemple de masque :
 $$\frac{1}{98}\times\begin{bmatrix}1 & 2 & 3 & 2 & 1 \\\ 2 & 6 & 8 & 6 & 2 \\\ 3 & 8 & 10 & 8 & 3 \\\ 2 & 6 & 8 & 6 & 2 \\\ 1 & 2 & 3 & 2 & 1 \end{bmatrix}$$
 
 [Index](./index.md)  
-[Cours précédant](./cours_1.md)
+[Cours précédant](./cours_1.md)  
+[Cours suivant](./cours_3.md)
