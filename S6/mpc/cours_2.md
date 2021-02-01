@@ -154,7 +154,7 @@ Soit $$D = (A, Q, I, Q\setminus F, \delta)$$ (on rend les états finaux non-fina
 Alors l'automate fini D reconnait le langage complémentaire de celui reconnu par C.  
 L(D) = A*\L(C)
 
-Le complémentaire (ou complément) d'un ensemble $$L\subseteq A*$$ est l'ensemble A*\L.
+Le complémentaire (ou complément) d'un ensemble $$L\subseteq A^*$$ est l'ensemble A*\L.
 
 [Index](./index.md)  
 [Cours précédent](./cours_1.md)

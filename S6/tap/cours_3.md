@@ -4,7 +4,8 @@
 <script>var viz = new Viz();</script>
 
 [Index](./index.md)  
-[Cours précédant](./cours_2.md)
+[Cours précédant](./cours_2.md)  
+[Cours Suivant](./cours_4.md)
 
 # Partition d'un entier
 
@@ -104,10 +105,37 @@ viz.renderSVGElement(`
 		B -> {D E};
 		E -> {F G};
 		
-		A[label="(6,3)"]; B[label="(5,2)"]; C[label="(5,3)"]; D[label="(4,1)"]; E[label="(3,2)"]; F[label="(2,1)"]; G[label="(1,2)"];
+		A[label="(6,3)"]; B[label="(5,2)"]; C[label="(3,3)"]; D[label="(4,1)"]; E[label="(3,2)"]; F[label="(2,1)"]; G[label="(1,2)"];
 	}
 `).then(elem => document.getElementById("p63").appendChild(elem)).catch(error=> console.log(error));
 </script>
 
+La complexité est O(#noeus) = O(n*p(n)) = $$2^{\Theta(\sqrt{n})}$$
+
+Ici, on a calculé la complexité en nombre d'opérations arithmétiques.
+
+Attention : op arithmétique (+) est élémentaire si les calculs tiennent sur des mots mémoires. Problème si n est très grand.
+
+Complexité en temps : $$O(\sqrt{n})\times 2^{\Theta(\sqrt{n})} = 2^{\Theta(\sqrt{n})}$$
+
+### Calculs inutiles
+
+Il y a des parties de l'arbre des appels qui se répètent.
+
+
+## Programmation dynamique
+
+Mémoriser les calculs déjà effectués.
+
+On peut stocker les résultats des calculs dans une table pour pouvoir y accéder plus tard à la place de refaire le calcul.
+
+P[n][k] = p(n,k)
+
+## Mémorisation paresseuse
+
+Pour toute fonction récursive, on stocke dans une table les résultats calculés.  
+Supprimer la redondance de la récursivité par mémorisation.
+
 [Index](./index.md)  
-[Cours précédant](./cours_2.md)
+[Cours précédant](./cours_2.md)  
+[Cours Suivant](./cours_4.md)

@@ -16,3 +16,6 @@ Complexité et notation asymptotique.
 
 ## [Cours 3](./cours_3.md)
 Partition d'un entier.
+
+## [Cours 4](./cours_4.md)
+Voyageur de commerce.
