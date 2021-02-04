@@ -4,7 +4,8 @@
 <script>var viz = new Viz();</script>
 
 [Index](./index.md)  
-[Cours précédent](./cours_1.md)
+[Cours précédent](./cours_1.md)  
+[Cours suivant](./cours_3.md)
 
 # Mots et langages acceptés part un automate fini
 
@@ -157,4 +158,5 @@ L(D) = A*\L(C)
 Le complémentaire (ou complément) d'un ensemble $$L\subseteq A^*$$ est l'ensemble A*\L.
 
 [Index](./index.md)  
-[Cours précédent](./cours_1.md)
+[Cours précédent](./cours_1.md)  
+[Cours suivant](./cours_3.md)

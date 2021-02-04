@@ -7,3 +7,6 @@ Langages, Expressions rationnelles et Automates finis.
 
 ## [Cours 2](./cours_2.md)
 Automates complets et automates déterministes.
+
+## [Cours 3](./cours_3.md)
+Déterminisation d'automates
