@@ -1,5 +1,6 @@
 [Index](./index.md)  
-[Cours précédant](./cours_1.md)
+[Cours précédant](./cours_1.md)  
+[Cours suivant](./cours_3.md)
 
 ## Expressions régulières
 
@@ -24,4 +25,5 @@ Les mots (tokens) reconnus par un tokenizer (comme JFlex) sont des mots d'un lan
 Les langages d'expressions parenthésés ou structurées ne sont pas des tokens et de sont pas définis grâce à JFlex.
 
 [Index](./index.md)  
-[Cours précédant](./cours_1.md)
+[Cours précédant](./cours_1.md)  
+[Cours suivant](./cours_3.md)
