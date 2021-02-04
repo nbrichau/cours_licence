@@ -13,8 +13,8 @@ Objectif : À partir d'un automate fini non-déterministe (AFN) A, construire un
 Ensemble de sous-ensembles :   
 Q un ensemble fini, |Q| = n  *(Q a n éléments)*  
 $$2^Q$$ l'ensemble des sous-ensembles de Q.  
-\\(Q = \{Q_1, Q_2, ..., Q_n\}\\)  
-\\(2^Q = \{\emptyset, \{Q_1\}, \{Q_2\}, ..., \{Q_n\}, \{Q_1, Q_2\}, \{Q_1, Q_3\}, ..., \{Q_1, Q_n\}, ..., \{Q_1, Q_2, ..., Q_n\}\}\\)  
+\\(Q = \\{Q_1, Q_2, ..., Q_n\\}\\)  
+\\(2^Q = \\{\emptyset, \\{Q_1\\}, \\{Q_2\\}, ..., \\{Q_n\\}, \\{Q_1, Q_2\\}, \\{Q_1, Q_3\\}, ..., \\{Q_1, Q_n\\}, ..., \\{Q_1, Q_2, ..., Q_n\\}\\}\\)  
 \\(|2^Q| = \binom{n}{0} + \binom{n}{1} + \binom{n}{2} + ... + \binom{n}{n} = 2^n\\)
 
 ### Méthode de sous-ensembles
@@ -52,7 +52,7 @@ viz.renderSVGElement(`
 `).then(elem => document.getElementById("grapheA").appendChild(elem)).catch(error=> console.log(error));
 </script>
 
-\\(Q_B = 2^Q = \{\{\emptyset\}, \{p\}, \{q\}, \{r\}, \{p, q\}, \{p, r\}, \{q, r\}, \{p, q, r\}\}\\)
+\\(Q_B = 2^Q = \\{\\{\emptyset\\}, \\{p\\}, \\{q\\}, \\{r\\}, \\{p, q\\}, \\{p, r\\}, \\{q, r\\}, \\{p, q, r\\}\\}\\)
 
 B a donc 8 états.
 
@@ -65,7 +65,7 @@ Tableau des transition de A :
 
 Liste des transitions de B :
 
-\\(\delta_B(\{p\}, a) = \delta_A(p, a) = \{p, q\}\\)
+\\(\delta_B(\\{p\\}, a) = \delta_A(p, a) = \\{p, q\\}\\)
 
 <div id="deltaBpa"></div>
 <script>
@@ -82,39 +82,39 @@ viz.renderSVGElement(`
 `).then(elem => document.getElementById("deltaBpa").appendChild(elem)).catch(error=> console.log(error));
 </script>
 
-\\(\delta_B(\{p\}, b) = \delta_A(p, b) = \{p\}\\)
+\\(\delta_B(\\{p\\}, b) = \delta_A(p, b) = \\{p\\}\\)
 
-\\(\delta_B(\{q\}, a) = \emptyset\\)
+\\(\delta_B(\\{q\\}, a) = \emptyset\\)
 
-\\(\delta_B(\{q\}, b) = \{r\}\\)
+\\(\delta_B(\\{q\\}, b) = \\{r\\}\\)
 
-\\(\delta_B(\{r\}, a) = \{r\}\\)
+\\(\delta_B(\\{r\\}, a) = \\{r\\}\\)
 
-\\(\delta_B(\{r\}, b) = \{r\}\\)
+\\(\delta_B(\\{r\\}, b) = \\{r\\}\\)
 
-\\(\delta_B(\{p, q\}, a) = \delta_A(p, a)\cup\delta_A(q, a) = \{p, q\}\cup\emptyset = \{p, q\}\\)
+\\(\delta_B(\\{p, q\\}, a) = \delta_A(p, a)\cup\delta_A(q, a) = \\{p, q\\}\cup\emptyset = \\{p, q\\}\\)
 
-\\(\delta_B(\{p, q\}, b) = \{p, r\}\\)
+\\(\delta_B(\\{p, q\\}, b) = \\{p, r\\}\\)
 
-\\(\delta_B(\{p, r\}, a) = \{p, q, r\}\\)
+\\(\delta_B(\\{p, r\\}, a) = \\{p, q, r\\}\\)
 
-\\(\delta_B(\{p, r\}, b) = \{p, r\}\\)
+\\(\delta_B(\\{p, r\\}, b) = \\{p, r\\}\\)
 
-\\(\delta_B(\{q, r\}, a) = \{r\}\\)
+\\(\delta_B(\\{q, r\\}, a) = \\{r\\}\\)
 
-\\(\delta_B(\{q, r\}, b) = \{r\}\\)
+\\(\delta_B(\\{q, r\\}, b) = \\{r\\}\\)
 
-\\(\delta_B(\{p, q, r\}, a) = \{p, q, r\}\\)
+\\(\delta_B(\\{p, q, r\\}, a) = \\{p, q, r\\}\\)
 
-\\(\delta_B(\{p, q, r\}, b) = \{p, r\}\\)
+\\(\delta_B(\\{p, q, r\\}, b) = \\{p, r\\}\\)
 
 \\(\delta_B(\emptyset, a) = \emptyset\\)
 
 \\(\delta_B(\emptyset, b) = \emptyset\\)
 
-\\(I_B = \{I\} = \{p\}\\)
+\\(I_B = \\{I\\} = \\{p\\}\\)
 
-\\(F_B = \{\{r\}, \{p,r\}, \{q,r\}, \{p,q,r\}\}\\)
+\\(F_B = \\{\\{r\\}, \\{p,r\\}, \\{q,r\\}, \\{p,q,r\\}\\}\\)
 
 <div id="grapheB"></div>
 <script>
