@@ -19,3 +19,6 @@ Partition d'un entier.
 
 ## [Cours 4](./cours_4.md)
 Voyageur de commerce.
+
+## [Cours 5](./cours_5.md)
+Programmation dynamique.
