@@ -4,7 +4,8 @@
 <script>var viz = new Viz();</script>
 
 [Index](./index.md)  
-[Cours précédent](./cours_2.md)
+[Cours précédent](./cours_2.md)  
+[Cours suivant](./cours_4.md)
 
 ## Déterminisation d'automates
 
@@ -161,6 +162,6 @@ viz.renderSVGElement(`
 
 La partie de droite (les sommets $$\emptyset$$, {q}, {r} et {q,r}) n'est pas accessible. Il est possible de l'enlever pour simplifier le graphe.
 
-
 [Index](./index.md)  
-[Cours précédent](./cours_2.md)
+[Cours précédent](./cours_2.md)  
+[Cours suivant](./cours_4.md)

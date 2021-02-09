@@ -10,3 +10,6 @@ Automates complets et automates déterministes.
 
 ## [Cours 3](./cours_3.md)
 Déterminisation d'automates
+
+## [Cours 4](./cours_4.md)
+Union/Intersection de langages, epsilon-transition, conversion AF expression rationnelle.
