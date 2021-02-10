@@ -30,14 +30,14 @@ Soit $$A_{\cap}=(A,Q,I,F_{\cap},\delta)$$ et $$A_{\cup}=(A,Q,O,F_{\cup},\delta)$
 
 ##### Théorèmes :
 
-L'AF $$A_{\cap}$$ reconnait l'intersection des langages reconnus par A_1 et A_2.
+L'AF $$A_{\cap}$$ reconnait l'intersection des langages reconnus par $$A_1$$ et $$A_2$$.
 
 Si $$A_1$$ et $$A_2$$ sont complets, $$A_{\cup}$$ reconnait l'union des langages reconnus par $$A_1$$ et $$A_2$$.
 
 Si $$L_1$$ et $$L_2$$ sont deux langages reconnaissables alors $$L_1\cap L_2$$ et $$L_1\cup L_2$$ sont aussi reconnaissable.  
 La classe de langages reconnaissable est clot par union ou intersection des langages.
 
-##### Exemple
+##### Exemple :
 
 <div id="grapheA1"></div>
 <script>
@@ -61,10 +61,10 @@ viz.renderSVGElement(`
 viz.renderSVGElement(` 
 	digraph A2 {
 		i -> q4;
-		q4 -> q4 [label="a,b"];
+		q4:nw -> q4:ne [label="a,b"];
 		q4 -> q5 [label="a"];
 		q5 -> q6 [label="b"];
-		q6 -> q6 [label="a,b"];
+		q6:nw -> q6:ne [label="a,b"];
 		q6 -> f;
 		
 		f [style=invis];
@@ -79,21 +79,21 @@ viz.renderSVGElement(`
 viz.renderSVGElement(` 
 	digraph AMix {
 		i -> 14;
-		14 -> 14 [label="a,b"];
+		14:nw -> 14:ne [label="a,b"];
 		14 -> 15 [label="a"];
 		15 -> 16 [label="b"];
-		16 -> 16  [label="a,b"];
+		16:nw -> 16ne  [label="a,b"];
 		14 -> 24 [label="a,b"];
 		25;
 		15 -> 26 [label="b", constraint=false];
 		16 -> 26 [label="b"];
 		24 -> 34 [label="a"];
-		34 -> 34 [label="a,b"];
+		34:sw -> 34:se [label="a,b"];
 		24 -> 35 [label="a"];
 		34 -> 35 [label="a"];
 		26 -> 36 [label="a"];
 		35 -> 36 [label="b"];
-		36 -> 36 [label="a,b"];
+		36:sw -> 36:se [label="a,b"];
 		
 		f [style=invis];
 		i [style=invis];
@@ -108,9 +108,9 @@ $$F_{\cup} = \{(q_3,q_4), (q_3,q_5), (q_3,q_6), (q_1,q_6), (q_2,q_6)\}$$
 
 $$F_{\cap} = \{(q_3,q_6)\}$$
 
-## AF avec $$\epsilon-transitions$$
+## AF avec $$\epsilon$$-transitions
 
-C'est un AFM, mais il peuvent avoir des transitions sur le mot vide $$\epsilon$$ ($$\epsilon-transition$$).
+C'est un AFM, mais il peuvent avoir des transitions sur le mot vide $$\epsilon$$ ($$\epsilon$$-transition).
 
 #### $$\epsilon$$-cloture
 
@@ -127,20 +127,20 @@ Et inversement, on peut convertir de manière algorithmique un AF en expression 
 
 Algorithme de Thompson :  
 Input : expression rationnelle  
-Output : un AF $$\epsilon-transition$$  
+Output : un AF $$\epsilon$$-transition  
 
 Les AF construits ont un unique état initial sur lequel n'arrive aucune transition et un unique état final duquel ne part aucune transition.
 
 On suppose qu'on sait faire un AF pour les expressions régulières l1 et l2.
 
-##### A reconnait l1+l2 :  
-On créé un nouveau sommet initial qui a des $$\epsilon-transition$$ vers les états initiaux de l1 et l2.  
-On créé des nouvelles $$\epsilon-transition$$ des états finaux de l1 et l2 vers un même nouvel état final.
+#### A reconnait l1+l2 :  
+On créé un nouveau sommet initial qui a des $$\epsilon$$-transition vers les états initiaux de l1 et l2.  
+On créé des nouvelles $$\epsilon$$-transition des états finaux de l1 et l2 vers un même nouvel état final.
 
-##### A reconnait l1.l2 :  
+#### A reconnait l1.l2 :  
 On créé une $$\epsilon$$-transition qui va de l'état final de l1 vers l'état initial de l2.
 
-##### A reconnait l1* :  
+#### A reconnait l1* :  
 On créé un nouvel état initial qui a une $$\epsilon$$-transition vers l'état initial de l1 et vers un nouvel état final.
 On rajoute une $$\epsilon$$-transition de l'état final de l1 vers le nouveau état final et l'état initial de l1.
 
