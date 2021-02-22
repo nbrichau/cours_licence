@@ -1,7 +1,8 @@
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML"></script>
 
 [Index](./index.md)  
-[Cours précédant](./cours_3.md)
+[Cours précédant](./cours_4.md)  
+[Cours suivant](./cours_6.md)
 
 ## Programmation dynamique (Held-Karp)
 
@@ -43,4 +44,5 @@ Il est bien inférieur à (n-1)!.
 On va mémoriser les résultats dans une table.
 
 [Index](./index.md)  
-[Cours précédant](./cours_3.md)
+[Cours précédant](./cours_4.md)  
+[Cours suivant](./cours_6.md)

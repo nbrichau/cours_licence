@@ -22,3 +22,6 @@ Voyageur de commerce.
 
 ## [Cours 5](./cours_5.md)
 Programmation dynamique.
+
+## [Cours 6](./cours_6.md)
+Approximation.
