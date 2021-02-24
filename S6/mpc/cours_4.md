@@ -4,7 +4,8 @@
 <script>var viz = new Viz();</script>
 
 [Index](./index.md)  
-[Cours précédent](./cours_3.md)
+[Cours précédent](./cours_3.md)  
+[Cours suivant](./cours_5.md)
 
 ## Propriétés de clotures des automates finis
 
@@ -52,6 +53,7 @@ viz.renderSVGElement(`
 		
 		f [style=invis];
 		i [style=invis];
+		{ rank=same; i q1 q2 q3 f }
 	}
 `).then(elem => document.getElementById("grapheA1").appendChild(elem)).catch(error=> console.log(error));
 </script>
@@ -123,9 +125,10 @@ $$clot(q) = p \setminus p\in Q$$ tels qu'il existe un chemin étiquetté $$\epsi
 On peut convertir de manière algorithmique une expression rationnelle en AF qui reconnait le même langage.  
 Et inversement, on peut convertir de manière algorithmique un AF en expression rationnelle qui reconnait le même langage.
 
-### Expression rationnelle vers AF
+## Expression rationnelle vers AF
 
-Algorithme de Thompson :  
+### Algorithme de Thompson
+
 Input : expression rationnelle  
 Output : un AF $$\epsilon$$-transition  
 
@@ -145,4 +148,5 @@ On créé un nouvel état initial qui a une $$\epsilon$$-transition vers l'état
 On rajoute une $$\epsilon$$-transition de l'état final de l1 vers le nouveau état final et l'état initial de l1.
 
 [Index](./index.md)  
-[Cours précédent](./cours_3.md)
+[Cours précédent](./cours_3.md)  
+[Cours suivant](./cours_5.md)

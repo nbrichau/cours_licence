@@ -9,7 +9,10 @@ Langages, Expressions rationnelles et Automates finis.
 Automates complets et automates déterministes.
 
 ## [Cours 3](./cours_3.md)
-Déterminisation d'automates
+Déterminisation d'automates.
 
 ## [Cours 4](./cours_4.md)
-Union/Intersection de langages, epsilon-transition, conversion AF expression rationnelle.
+Union/Intersection de langages, epsilon-transition, Algorithme de Thompson.
+
+## [Cours 5](./cours_5.md)
+Algorithme de Glushkov, Lemme d'Ardem.
