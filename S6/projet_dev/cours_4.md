@@ -1,3 +1,7 @@
+[Index](./index.md)  
+[Cours précédent](./cours_3.md)  
+[Cours suivant](./cours_5.md)
+
 # Modèle client - serveur
 
 - Le client demande l'exécution d'un serveur.
@@ -97,3 +101,7 @@ Un composant logiciel réutilisable. Il a un structure contrainte : constructeur
 
 Architecture autour d'un conteneur léger. Les composants sont tous des objets Java pur.  
 Il intègre déjà des bibliothèques open source : Hibernate, JUnit, ...
+
+[Index](./index.md)  
+[Cours précédent](./cours_3.md)  
+[Cours suivant](./cours_5.md)

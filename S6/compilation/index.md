@@ -14,3 +14,9 @@ Expressions régulières, JFlex.
 
 ## [Cours 3](./cours_3.md)
 Analyse syntaxique, système de réécriture, dérivation.
+
+## [Cours 4](./cours_4.md)
+Analyse Cocke-Younger-Kasami
+
+## [Cours 5](./cours_5.md)
+Analyse Earley, Analyse LR

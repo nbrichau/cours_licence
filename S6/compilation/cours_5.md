@@ -1,3 +1,8 @@
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML"></script>
+
+[Index](./index.md)  
+[Cours précédant](./cours_4.md)
+
 ## Propriété du préfixe valide
 L'item $$A\to \alpha \bullet \beta$$ est valable sur $$[i, j]$$ s'il existe $$\gamma \delta$$ tels que :
 - \\(S \Rightarrow^* \gamma A \delta\\)
@@ -25,3 +30,6 @@ L'analyse LR suppose un automate dont chacun des états correspond à une classe
 2. Dans chaque état, on construit une équivalence $$A \to \alpha \bullet B \beta \equiv B \to \bullet \gamma$$ s'il existe $$B \to \gamma \in R$$
 3. SI l'état $$Q$$ contient $$A \to \alpha \bullet X \beta$$, construire une transition vers l'état $$Q' = A \to \alpha X \bullet \beta$$ avec le symbole $$X$$ en empilant $$Q$$.
 4. SI l'état $$Q$$ contient $$A \to \alpha \bullet$$, aller ver l'état au sommet de la pile - $$| \alpha |$$ (dépiler) avec la lettre suivante de $$A$$
+
+[Index](./index.md)  
+[Cours précédant](./cours_4.md)

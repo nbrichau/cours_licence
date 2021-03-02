@@ -25,3 +25,6 @@ Programmation dynamique.
 
 ## [Cours 6](./cours_6.md)
 Approximation.
+
+## [Cours 7](./cours_7.md)
+Minimum Spanning Tree.

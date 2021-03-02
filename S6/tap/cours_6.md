@@ -1,7 +1,8 @@
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML"></script>
 
 [Index](./index.md)  
-[Cours précédant](./cours_5.md)
+[Cours précédant](./cours_5.md)  
+[Cours suivant](./cours_7.md)
 
 ## Approximation
 
@@ -32,4 +33,5 @@ L'algorithme glouton n'est pas une $$\alpha$$-approximation. On parle d'heuristi
 (algo supposé efficace en pratique qui produit un résultat sans garantit de qualité)
 
 [Index](./index.md)  
-[Cours précédant](./cours_5.md)
+[Cours précédant](./cours_5.md)  
+[Cours suivant](./cours_7.md)
