@@ -20,3 +20,5 @@ Protocole HTTP, Java Servlet, JavaBeans, Spring
 ## [Cours 5](./cours_5.md)
 API REST, JavaScript
 
+## [Cours 6](./cours_6.md)
+Gestion de projet (Maven, Git, ...)

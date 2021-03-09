@@ -20,3 +20,6 @@ Analyse Cocke-Younger-Kasami
 
 ## [Cours 5](./cours_5.md)
 Analyse Earley, Analyse LR
+
+## [Cours 6](./cours_6.md)
+Grammaire attribuée.

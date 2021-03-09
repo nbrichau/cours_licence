@@ -28,3 +28,6 @@ Approximation.
 
 ## [Cours 7](./cours_7.md)
 Minimum Spanning Tree.
+
+## [Cours 8](./cours_8.md)
+Navigation.

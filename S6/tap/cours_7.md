@@ -1,7 +1,8 @@
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML"></script>
 
 [Index](./index.md)  
-[Cours précédant](./cours_6.md)
+[Cours précédant](./cours_6.md)  
+[Cours suivant](./cours_8.md)
 
 ### Minimum Spanning Tree
 
@@ -35,4 +36,5 @@ Elle manipule aussi des opérations :
 On représente les ensembles par des arbres (enracinés)
 
 [Index](./index.md)  
-[Cours précédant](./cours_6.md)
+[Cours précédant](./cours_6.md)  
+[Cours suivant](./cours_8.md)

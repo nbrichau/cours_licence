@@ -1,7 +1,8 @@
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML"></script>
 
 [Index](./index.md)  
-[Cours précédant](./cours_4.md)
+[Cours précédant](./cours_4.md)  
+[Cours suivant](./cours_6.md)
 
 ## Propriété du préfixe valide
 L'item $$A\to \alpha \bullet \beta$$ est valable sur $$[i, j]$$ s'il existe $$\gamma \delta$$ tels que :
@@ -31,5 +32,10 @@ L'analyse LR suppose un automate dont chacun des états correspond à une classe
 3. SI l'état $$Q$$ contient $$A \to \alpha \bullet X \beta$$, construire une transition vers l'état $$Q' = A \to \alpha X \bullet \beta$$ avec le symbole $$X$$ en empilant $$Q$$.
 4. SI l'état $$Q$$ contient $$A \to \alpha \bullet$$, aller ver l'état au sommet de la pile - $$| \alpha |$$ (dépiler) avec la lettre suivante de $$A$$
 
+### Grammaire à précédence d'opérateurs
+
+Une grammaire à précédence d'opérateurs est une sous-classes des grammaires CFG telle que toute séquence en partie droite des règles est non vide et ne contient jamais deux non-terminaux adjacents ou deux terminaux adjacents. Les terminaux qui se trouvent entre deux non-terminaux sont les opérateurs.
+
 [Index](./index.md)  
-[Cours précédant](./cours_4.md)
+[Cours précédant](./cours_4.md)  
+[Cours suivant](./cours_6.md)

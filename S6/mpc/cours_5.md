@@ -4,7 +4,8 @@
 <script>var viz = new Viz();</script>
 
 [Index](./index.md)  
-[Cours précédent](./cours_4.md)
+[Cours précédent](./cours_4.md)  
+[Cours suivant](./cours_6.md)
 
 ## Expression rationnelle vers AF (suite)
 
@@ -81,4 +82,5 @@ Si $$X=K.X+L$$, alors $$X=K^*.L$$
 Si $$X=X.K+L$$, alors $$X=L.K^*$$
 
 [Index](./index.md)  
-[Cours précédent](./cours_4.md)
+[Cours précédent](./cours_4.md)  
+[Cours suivant](./cours_6.md)

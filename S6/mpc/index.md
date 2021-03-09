@@ -16,3 +16,6 @@ Union/Intersection de langages, epsilon-transition, Algorithme de Thompson.
 
 ## [Cours 5](./cours_5.md)
 Algorithme de Glushkov, Lemme d'Ardem.
+
+## [Cours 6](./cours_6.md)
+Lemme de l'étoile, résiduels.
