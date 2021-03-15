@@ -31,3 +31,6 @@ Minimum Spanning Tree.
 
 ## [Cours 8](./cours_8.md)
 Navigation.
+
+## [Cours 9](./cours_9.md)
+A-Star

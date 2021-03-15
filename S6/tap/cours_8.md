@@ -1,7 +1,8 @@
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML"></script>
 
 [Index](./index.md)  
-[Cours précédant](./cours_7.md)
+[Cours précédant](./cours_7.md)  
+[Cours suivant](./cours_9.md)
 
 # Navigation
 
@@ -24,4 +25,5 @@ Rappels :
 - Renvoyer l'erreur "le chemin n'a pas été trouvé"
 
 [Index](./index.md)  
-[Cours précédant](./cours_7.md)
+[Cours précédant](./cours_7.md)  
+[Cours suivant](./cours_9.md)
