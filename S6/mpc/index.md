@@ -19,3 +19,6 @@ Algorithme de Glushkov, Lemme d'Ardem.
 
 ## [Cours 6](./cours_6.md)
 Lemme de l'étoile, résiduels.
+
+## [Cours 7](./cours_7.md)
+Résiduels, minimisation d'automates
