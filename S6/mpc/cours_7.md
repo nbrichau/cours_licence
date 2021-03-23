@@ -4,7 +4,8 @@
 <script>var viz = new Viz();</script>
 
 [Index](./index.md)  
-[Cours précédent](./cours_6.md)
+[Cours précédent](./cours_6.md)  
+[Cours suivant](./cours_8.md)
 
 ## Calcul de résiduels
 
@@ -112,11 +113,8 @@ Soit (p, q) un couple d'états.
 On note $$p \sim q$$ (ou $$p \equiv q$$) si p et q ne sont séparés par aucun mot.  
 $$p \equiv_n q$$ ne sont séparés par aucun mot de longueur $$\leq n$$.
 
-## Algorithme de minimisation de Moore
 
-Cet algorithme prend en entrée un automate fini déterministe complet et retourne les classes d'équivalence de Nerode et l'automate minimal reconnaissant le langage reconnu par l'automate d'entrée.  
-L'algorithme calcule lettre par lettre les mots séparant les états. C'est-à-dire qu'il calcule les classes d'équivalence de Nerode.  
-Après examen de longueurs de mots possible, un bilan est fait. Attribution d'une étiquète à chaque classe $$\equiv_n$$.
 
 [Index](./index.md)  
-[Cours précédent](./cours_6.md)
+[Cours précédent](./cours_6.md)  
+[Cours suivant](./cours_8.md)

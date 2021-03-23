@@ -23,3 +23,6 @@ Analyse Earley, Analyse LR
 
 ## [Cours 6](./cours_6.md)
 Grammaire attribuée.
+
+## [Cours 7](./cours_7.md)
+Équivalence de `TypeExpr`.

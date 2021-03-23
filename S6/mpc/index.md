@@ -21,4 +21,7 @@ Algorithme de Glushkov, Lemme d'Ardem.
 Lemme de l'étoile, résiduels.
 
 ## [Cours 7](./cours_7.md)
-Résiduels, minimisation d'automates
+Résiduels, minimisation d'automates.
+
+## [Cours 8](./cours_8.md)
+Algorithme de minimisation de Moore, grammaire algébrique.

@@ -1,7 +1,6 @@
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML"></script>
-
 [Index](./index.md)  
-[Cours précédant](./cours_5.md)
+[Cours précédant](./cours_5.md)  
+[Cours suivant](./cours_6.md)
 
 ## Grammaire attribuée
 
@@ -19,4 +18,5 @@ Si les attributs peuvent être calculé de gauche à droite, alors c'est une gra
 Une grammaire L-attribuée a des attributs qui peuvent être calculé lors d'une traversée gauche droite de l'arbre.
 
 [Index](./index.md)  
-[Cours précédant](./cours_5.md)
+[Cours précédant](./cours_5.md)  
+[Cours suivant](./cours_6.md)
