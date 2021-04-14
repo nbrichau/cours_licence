@@ -25,3 +25,6 @@ Résiduels, minimisation d'automates.
 
 ## [Cours 8](./cours_8.md)
 Algorithme de minimisation de Moore, grammaire algébrique.
+
+## [Cours 9](./cours_9.md)
+Grammaire algébrique vers combinatoire, automate à pile.

@@ -4,7 +4,8 @@
 <script>var viz = new Viz();</script>
 
 [Index](./index.md)  
-[Cours précédent](./cours_7.md)
+[Cours précédent](./cours_7.md)  
+[Cours suivant](./cours_9.md)
 
 ## Algorithme de minimisation de Moore
 
@@ -29,7 +30,7 @@ Les états finaux sont les classes d'équivalence contenant des état finaux de 
 
 <div id="graphe"></div>
 <script>
-viz.renderSVGElement(` 
+viz.renderSVGElement(`
 	digraph Graphe {
 		i -> 0;
 		0 -> 2 [label="a"];
@@ -53,7 +54,7 @@ viz.renderSVGElement(`
 		4 -> fff;
 		6 -> ffff;
 		7 -> fffff;
-		
+
 		i [style=invis];
 		f [style=invis];
 		ff [style=invis];
@@ -81,7 +82,7 @@ Les deux lignes de bilan sont les mêmes dont le tableau est terminé.
 
 <div id="graphe2"></div>
 <script>
-viz.renderSVGElement(` 
+viz.renderSVGElement(`
 	digraph GrapheMinimal {
 		i -> I
 		I -> III [label="a"];
@@ -94,7 +95,7 @@ viz.renderSVGElement(`
 		IV:ne -> IV:nw  [label="b"];
 		IV -> f;
 		I -> ff;
-		
+
 		i [style=invis];
 		f [style=invis];
 		ff [style=invis];
@@ -122,4 +123,5 @@ Soit $$A \to beta$$ une production d'une grammaire $$G$$ et $$\alpha A \gamma$$ 
 Le langage $$L(G)$$ engendré par la grammaire $$G$$ est l'ensemble de mots sur $$T$$ (mots terminaux qui ne contiennent plus de variables) qui dérive de l'axiome $$S$$
 
 [Index](./index.md)  
-[Cours précédent](./cours_7.md)
+[Cours précédent](./cours_7.md)  
+[Cours suivant](./cours_9.md)
