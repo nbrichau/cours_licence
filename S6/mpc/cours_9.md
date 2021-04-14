@@ -12,7 +12,7 @@ Un mot est représenté par un chemin avec un pas Nord-Est pour a et Sud-Est pou
 
 Exemple : aababb : $$\Omega(aababb) = 1 + 1 - 1 + 1 - 1 - 1 = 0$$
 
-Les mots de Dyck sont donnée par $$D = \{ w \in (a+b)^*$$ tels que $$ \Omega(w) = 0, \Omega(w[1..i]) \geq 0, \forall i \in [O, |w|]$$  
+Les mots de Dyck sont donnée par $$D = \{ w\} \in (a+b)^*$$ tels que $$ \Omega(w) = 0, \Omega(w[1..i]) \geq 0, \forall i \in [O, |w|]$$  
 w[1..i] est le sous-mot formé par les i premières lettres.  
 $$\Omega(w) = 0$$ implique que le mot a autant de a que de b.
 
@@ -21,7 +21,7 @@ Exemple : aababb est un mot de Dyck, aab n'en est pas un.
 Bijection entre les mots de Dyck et les parenthèses correctement assemblées. Un a représente une parenthèse ouvrante et b une parenthèse fermante.  
 Exemple : aababb <-> (()())
 
-|w| = 2n, n=3 : aaabbb, ababab, abaabb, aabbab, aababb : 5 mots de Dyck
+\|w\| = 2n, n=3 : aaabbb, ababab, abaabb, aabbab, aababb : 5 mots de Dyck
 
 ### Propriété 1 des mots de Dyck
 
@@ -66,7 +66,7 @@ Un automate à pile sur l'alphabet A est la donnée d'un 7-uplet :
 - $$A$$ alphabet
 - $$\Pi$$ alphabet fini (alphabet de pile)
 - $$Q$$ ensemble fini d'états
-- $$\delat$$ ensemble des transitions $$\Pi^* \times Q \times (\epsilon + A) \to P(\Pi^* \times Q)$$
+- $$\delta$$ ensemble des transitions $$\Pi^* \times Q \times (\epsilon + A) \to P(\Pi^* \times Q)$$
 - $$Z_0 \in \Pi$$ symbole initial de la pile
 - $$q_0 \in Q$$ l'état initial
 - $$F \subseteq S$$ ensemble des états finaux
